@@ -40,6 +40,15 @@
   background-color: navy;
   z-index: 1000;
 }
-.navbar * {
-  color: white;
+.nav-link, .navbar-brand, .navbar-item {
+  color: white !important;
+}
+.navbar-brand:focus, .navbar-brand:hover,
+.navbar-link:focus, .navbar-link:hover,
+.navbar-item:focus, .navbar-item:hover {
+  color: white !important;
+}
+.white {
+  color: white !important;
+  background-color: white !important;
 }
