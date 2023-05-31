@@ -1,11 +1,17 @@
-import logo from './logo.svg';
+// CSS Files
 import './App.css';
+
+// JS Files
+import Navbar from './Navbar';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World!</h1>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar/>
+      </div>
+    </Router>
   );
 }
 
