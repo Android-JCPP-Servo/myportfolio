@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom'
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg">
+        <nav className="navbar navbar-expand-lg w-100 mb-5">
             <div className="container-fluid">
                 <Link className="navbar-brand nav-link" to="/">My Portfolio</Link>
                 <button className="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
