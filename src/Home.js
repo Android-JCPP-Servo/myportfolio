@@ -1,3 +1,4 @@
+import NarrowImageCard from "./NarrowImageCard";
 import WideImageCard from "./WideImageCard";
 
 const Home = () => {
@@ -17,6 +18,11 @@ const Home = () => {
                     <p>Phone: <a href="tel:512-876-0923" className="link">(512) 876-0923</a></p>
                     <p>Email: <a href="mailto:astewart1138@gmail.com" className="link">astewart1138@gmail.com</a></p>
                 </WideImageCard>
+            </div>
+            <div class="row">
+                <NarrowImageCard src={require("./assets/1200px-Brigham_Young_University–Idaho_medallion.svg.png")} alt="Brigham Young University Logo" id="byui" title="Schooling" text="My schooling experience leading up to my chosen profession." toPage="/schooling" btnText="My School Experience"/>
+                <NarrowImageCard src={require("./assets/handshake-icon-35511.png")} alt="Green Work Icon" id="streamit" title="Work & Profession" text="All positions and opportunities I have had within my chosen profession." toPage="/work" btnText="My Work Experience"/>
+                <NarrowImageCard src={require("./assets/volunteer-icon-29247.png")} alt="Red Volunteer Icon" id="byui" title="Volunteer Service" text="All service opportunities I have participated in during my schooling and work careers." toPage="/volunteering" btnText="My Volunteer Experience"/>
             </div>
         </div>
     );
