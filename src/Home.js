@@ -5,7 +5,7 @@ const Home = () => {
         <div className="container mb-5">
             <div className="row">
                 <WideImageCard>
-                    <img src="./assets/andersen_stewart_05-15-2023.png" alt="Picture of Andersen Stewart wearing button shirt" id="andersen"/>
+                    <img src={require("./assets/andersen_stewart_05-15-2023.png")} alt="Picture of Andersen Stewart wearing button shirt" id="andersen"/>
                     <h1>Andersen Stewart</h1>
                     <p>Howdy! Thank you so much for viewing my portfolio.</p>
                     <p>My name is Andersen Stewart, and I am a recent graduate of the Brigham Young University - Idaho Computer Science program.</p>

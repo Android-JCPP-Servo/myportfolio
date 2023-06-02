@@ -58,3 +58,10 @@
   color: white !important;
   background-color: white !important;
 }
+#andersen,
+#byui,
+#streamit {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
