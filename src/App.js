@@ -9,7 +9,14 @@ function App() {
     <Router>
       <div className="App">
         <Navbar/>
-        <Home/>
+        <div className="content">
+          <Switch>
+            <Route exact path="/"><Home/></Route>
+            <Route path="/schooling"></Route>
+            <Route path="/work"></Route>
+            <Route path="/volunteering"></Route>
+          </Switch>
+        </div>
         <Footer/>
       </div>
     </Router>
