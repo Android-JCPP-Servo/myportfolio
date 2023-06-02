@@ -36,12 +36,6 @@
     transform: rotate(360deg);
   }
 } */
-* {
-  box-sizing: border-box;
-}
-.center-col {
-  margin-top: 100px;
-}
 .navbar {
   background-color: navy;
   z-index: 1000;
@@ -58,10 +52,39 @@
   color: white !important;
   background-color: white !important;
 }
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: navy;
+  z-index: 1000;
+}
+
+sup {
+  font-size: 8px;
+}
+
 #andersen,
 #byui,
 #streamit {
-    border-radius: 50%;
-    width: 100%;
-    height: auto;
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+}
+
+#readMore {
+  margin-top: 15px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.card {
+  border: none !important;
+}
+
+.center-col {
+  margin-top: 100px;
 }
