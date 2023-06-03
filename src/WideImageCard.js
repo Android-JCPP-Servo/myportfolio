@@ -24,10 +24,10 @@ const WideImageCard = props => {
                 <div className="col-md-6">
                     {rowsOuter.length != 0 && rowsOuter}
                     {
-                       rowsInner.length != 0 && <div>
-                          <div className="collapse" id="readMore">{rowsInner}</div>
-                          <button className="btn btn-primary readMore" type="button" data-bs-toggle="collapse" data-bs-target="#readMore" aria-expanded="false" aria-controls="readMore" id="readMoreButton" onClick={handleInnerText}>Read more...</button>
-                       </div>
+                        rowsInner.length != 0 && <div>
+                            <div className="collapse" id={props.newId}>{rowsInner}</div>
+                            <button className="btn btn-primary readMore" type="button" data-bs-toggle="collapse" data-bs-target={props.newTargetId} aria-expanded="false" aria-controls={props.newId} id="readMoreButton" onClick={handleInnerText}>Read more...</button>
+                        </div>
                     }
                 </div>
                 <div className="col-md-3"></div>
