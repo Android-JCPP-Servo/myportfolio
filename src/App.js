@@ -5,6 +5,7 @@ import Footer from './Footer';
 import Home from './Home';
 import Schooling from './Schooling';
 import Work from './Work';
+import Volunteer from './Volunteer';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
             <Route exact path="/"><Home/></Route>
             <Route path="/schooling"><Schooling/></Route>
             <Route path="/work"><Work/></Route>
-            <Route path="/volunteering"></Route>
+            <Route path="/volunteering"><Volunteer/></Route>
           </Switch>
         </div>
         <Footer/>
