@@ -1,7 +1,11 @@
+import { useLayoutEffect } from "react";
 import Return from "./Return";
 import WideImageCard from "./WideImageCard";
 
 const Work = () => {
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+    });
     return (
         <div className="container mb-5">
             <div className="row">
