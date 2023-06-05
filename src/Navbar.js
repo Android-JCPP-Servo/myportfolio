@@ -11,14 +11,6 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
 
-                        <li className="nav-item">
-                            <a className="nav-link" href="https://www.linkedin.com/in/andersen-stewart-57547220b/" target="_blank">LinkedIn</a>
-                        </li>
-
-                        <li className="nav-item">
-                            <a className="nav-link" href="https://github.com/Android-JCPP-Servo" target="_blank">GitHub</a>
-                        </li>
-
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
                             <ul className="dropdown-menu">
