@@ -22,7 +22,9 @@ const Home = () => {
             <div className="row">
                 <NarrowImageCard src={require("./assets/1200px-Brigham_Young_University–Idaho_medallion.svg.png")} alt="Brigham Young University Logo" id="byui" title="Schooling" text="My schooling experience leading up to my chosen profession." toPage="/schooling" btnText="My School Experience"/>
                 <NarrowImageCard src={require("./assets/handshake-icon-35511.png")} alt="Green Work Icon" id="streamit" title="Work & Profession" text="All positions and opportunities I have had within my chosen profession." toPage="/work" btnText="My Work Experience"/>
-                <NarrowImageCard src={require("./assets/volunteer-icon-29247.png")} alt="Red Volunteer Icon" id="byui" title="Volunteer Service" text="All service opportunities I have participated in during my schooling and work careers." toPage="/volunteering" btnText="My Volunteer Experience"/>
+                {/* <NarrowImageCard src={require("./assets/volunteer-icon-29247.png")} alt="Red Volunteer Icon" id="byui" title="Volunteer Service" text="All service opportunities I have participated in during my schooling and work careers." toPage="/volunteering" btnText="My Volunteer Experience"/> */}
+                <NarrowImageCard src={require("./assets/boma_project_icon.png")} alt="Boma Project Icon" id="byui" title="Projects" text="All projects started and completed during school and work careers." toPage="" btnText="My Projects"/>
+                <NarrowImageCard src={require("./assets/codecademy.jpg")} alt="" id="byui" title="Certifications" text="All certifications gained for personal and professional development." toPage="" btnText="My Certifications" />
             </div>
         </div>
     );
