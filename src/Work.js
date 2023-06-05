@@ -2,7 +2,6 @@ import { useLayoutEffect } from "react";
 import Return from "./Return";
 import WideImageCard from "./WideImageCard";
 import TitleCard from "./TitleCard";
-import LinkCard from "./LinkCard";
 
 const Work = () => {
     useLayoutEffect(() => {
