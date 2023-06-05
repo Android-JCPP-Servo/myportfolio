@@ -1,6 +1,7 @@
 import { useLayoutEffect } from "react";
 import Return from "./Return";
 import WideImageCard from "./WideImageCard";
+import TitleCard from "./TitleCard";
 
 const Schooling = () => {
     useLayoutEffect(() => {
@@ -9,6 +10,7 @@ const Schooling = () => {
     return (
         <div className="container mb-5">
             <div className="row">
+                <TitleCard pageTitle="Schooling" />
                 <WideImageCard newId="readMore1" newTargetId="#readMore1">
                     <img src={require("./assets/1200px-Brigham_Young_University–Idaho_medallion.svg.png")} alt="Brigham Young University Logo" id="byui" />
                     <h3>CS Student at BYU-Idaho</h3>
