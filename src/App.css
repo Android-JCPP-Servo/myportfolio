@@ -73,6 +73,30 @@ sup {
   height: auto;
 }
 
+.work-social {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr !important;
+}
+
+.social {
+  border-radius: 50%;
+  width: 50%;
+  height: auto;
+  text-align: center;
+}
+
+.social img {
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .social {
+    max-width: 100%;
+  } 
+}
+
 #readMore {
   margin-top: 15px;
 }
