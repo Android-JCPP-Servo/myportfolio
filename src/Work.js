@@ -1,6 +1,8 @@
 import { useLayoutEffect } from "react";
 import Return from "./Return";
 import WideImageCard from "./WideImageCard";
+import TitleCard from "./TitleCard";
+import LinkCard from "./LinkCard";
 
 const Work = () => {
     useLayoutEffect(() => {
@@ -9,6 +11,17 @@ const Work = () => {
     return (
         <div className="container mb-5">
             <div className="row">
+                <TitleCard pageTitle="Work & Profession" />
+                {/* <div className="row">
+                    <LinkCard img={require("./assets/linkedin_logo.png")} alt="LinkedIn Logo" link="https://www.linkedin.com/in/andersen-stewart-57547220b/" title="LinkedIn Profile">
+                        <p>View all my experience, skills, and activity on LinkedIn.</p>
+                    </LinkCard>
+                </div>
+                <div className="row">
+                    <LinkCard>
+                        <p>View all my coding projects on GitHub.</p>
+                    </LinkCard>
+                </div> */}
                 <WideImageCard newId="readMore1" newTargetId="#readMore1">
                     <img src={require("./assets/streamit logo.jpg")} alt="Stream It, Inc. Logo" id="streamit" />
                     <h3>Full-Stack Web Developer at Stream It, Inc.</h3>
@@ -29,7 +42,13 @@ const Work = () => {
                             </ul>
                         </li>
                     </ul>
-                    <p>The website I am building is for the company's main flag-ship product: <a href="https://cyberlandr.com/" target="_blank" class="link">CyberLandr</a><sup>TM</sup>. CyberLandr<sup>TM</sup> is designed to transform Tesla's new Cybertruck into the ultimate lifestyle vehicle, allowing customers to travel all sorts of terrain. No matter where the adventurer travels or wanders, CyberLandr<sup>TM</sup> will always provide the comforts of home currently missed in the RV industry today.</p>
+                    <p>The website I am building is for the company's main flag-ship product: <a href="https://cyberlandr.com/" target="_blank" className="link">CyberLandr</a><sup>TM</sup>. CyberLandr<sup>TM</sup> is designed to transform Tesla's new Cybertruck into the ultimate lifestyle vehicle, allowing customers to travel all sorts of terrain. No matter where the adventurer travels or wanders, CyberLandr<sup>TM</sup> will always provide the comforts of home currently missed in the RV industry today.</p>
+                </WideImageCard>
+                <WideImageCard newId="readMore1" newTargetId="#readMore1">
+                    <img src={require("./assets/churchofjesuschrist.jpg")} alt="Church of Jesus Christ Logo" id="streamit" />
+                    <h3>Full-Time Proselyting Missionary</h3>
+                    <p>From September 2017 to October 2019, I served a mission for my church in Chicago, IL. The work I did involved contacting people through various means (i.e., door-knocking, phone and video calls, text messages, etc.). Additionally, I was asked to serve in a leadership position over 20+ missionaries within three areas. We were taught how to budget time, money, and monthly-mileage allotments.</p>
+                    <p>As a missionary, I met with people from various backgrounds, cultures, and social standings. While in leadership, I was responsible for helping fellow missionaries keep track of the work they did in their areas. I would receive specific numbers and feedback from my fellow missionaries, and would then submit that data to my superiors for overall performance analysis. This data would help mission leadership understand how to improve overall performance among missionaries.</p>
                 </WideImageCard>
             </div>
             <Return/>
