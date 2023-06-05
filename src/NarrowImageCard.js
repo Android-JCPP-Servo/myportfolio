@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom'
 
 const NarrowImageCard = props => {
     return (
-        <div className="col-sm-4 center-col">
+        <div className="col-sm-3 center-col">
             <div className="card shadow bg-white rounded">
                 <div className="card-body">
                     <img src={props.src} alt={props.alt} id={props.id} />
