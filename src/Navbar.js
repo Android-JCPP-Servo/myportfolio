@@ -12,23 +12,6 @@ const Navbar = () => {
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
 
                         <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
-                            <ul className="dropdown-menu">
-                                <li><a href="#" className="dropdown-item" style={{fontWeight: 'bold'}}>Completed</a></li>
-
-                                <li><a className="dropdown-item" href="https://cyberlandr.com" target="_blank">CyberLandr<sup>TM</sup></a></li>
-
-                                <li><a className="dropdown-item" href="https://play.google.com/store/apps/details?id=com.team02.boma" target="_blank">BOMA! BMI Calculator</a></li>
-
-                                <li><hr className="dropdown-divider"/></li>
-
-                                <li><a href="#" className="dropdown-item" style={{fontWeight: 'bold'}}>In-Progress</a></li>
-
-                                <li><a className="dropdown-item" href="#">JACK - AI Voice Assistant</a></li>
-                            </ul>
-                        </li>
-
-                        <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Certifications</a>
                             <ul className="dropdown-menu">
                             <li className="dropdown-item"><strong>Completed</strong></li>
