@@ -39,7 +39,7 @@ const Work = () => {
                     </ul>
                     <p>The website I am building is for the company's main flag-ship product: <a href="https://cyberlandr.com/" target="_blank" className="link">CyberLandr</a><sup>TM</sup>. CyberLandr<sup>TM</sup> is designed to transform Tesla's new Cybertruck into the ultimate lifestyle vehicle, allowing customers to travel all sorts of terrain. No matter where the adventurer travels or wanders, CyberLandr<sup>TM</sup> will always provide the comforts of home currently missed in the RV industry today.</p>
                 </WideImageCard>
-                <WideImageCard newId="readMore1" newTargetId="#readMore1">
+                <WideImageCard newId="readMore2" newTargetId="#readMore2">
                     <img src={require("./assets/churchofjesuschrist.jpg")} alt="Church of Jesus Christ Logo" id="streamit" />
                     <h3>Full-Time Proselyting Missionary</h3>
                     <p>From September 2017 to October 2019, I served a mission for my church in Chicago, IL. The work I did involved contacting people through various means (i.e., door-knocking, phone and video calls, text messages, etc.). Additionally, I was asked to serve in a leadership position over 20+ missionaries within three areas. We were taught how to budget time, money, and monthly-mileage allotments.</p>
