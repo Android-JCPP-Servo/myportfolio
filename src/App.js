@@ -5,7 +5,8 @@ import Footer from './Footer';
 import Home from './Home';
 import Schooling from './Schooling';
 import Work from './Work';
-import Volunteer from './Volunteer';
+// import Volunteer from './Volunteer';
+import Projects from './Projects';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
             <Route exact path="/"><Home/></Route>
             <Route path="/schooling"><Schooling/></Route>
             <Route path="/work"><Work/></Route>
-            <Route path="/volunteering"><Volunteer/></Route>
+            {/* <Route path="/volunteering"><Volunteer/></Route> */}
+            <Route path="/projects"><Projects/></Route>
           </Switch>
         </div>
         <Footer/>
