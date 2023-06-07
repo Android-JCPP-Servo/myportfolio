@@ -7,6 +7,7 @@ import Schooling from './Schooling';
 import Work from './Work';
 // import Volunteer from './Volunteer';
 import Projects from './Projects';
+import Certifications from './Certifications';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/work"><Work/></Route>
             {/* <Route path="/volunteering"><Volunteer/></Route> */}
             <Route path="/projects"><Projects/></Route>
+            <Route path="/certifications"><Certifications/></Route>
           </Switch>
         </div>
         <Footer/>
