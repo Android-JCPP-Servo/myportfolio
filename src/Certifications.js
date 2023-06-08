@@ -7,6 +7,11 @@ const Certifications = () => {
         <div className="container mb-5">
             <div className="row">
                 <TitleCard pageTitle="Certifications"></TitleCard>
+                <WideImageCard newId="readMore4" newTargetId="#readMore4">
+                    <img src={require("./assets/microsoft_logo.png")} alt="Microsoft Logo" id="streamit"/>
+                    <h3>Microsoft Certifications</h3>
+                    <p></p>
+                </WideImageCard>
                 <WideImageCard newId="readMore3" newTargetId="#readMore3">
                     <img src={require("./assets/codecademy.jpg")} alt="Codecademy Logo" id="streamit" />
                     <h3>Codecademy Certifications</h3>
@@ -23,12 +28,26 @@ const Certifications = () => {
                     <p>A major goal I have is to learn how C# and .NET are used for web-app development. According to <a className="link" href="https://www.codecademy.com/courses/learn-c-sharp/lessons/csharp-hello-world/exercises/c-sharp-in-the-wild" target="_blank">Codecademy</a>, C# can increase requests per second by 2,000%, which will greatly enhance the user experience of a web application. It is my goal to learn how to program a web application using C#, so my future web app experience will be helpful in enhancing UX/UI experience for clientele.</p>
                 </WideImageCard>
                 <WideImageCard newId="readMore2" newTargetId="#readMore2">
-                    <img src="" alt="" />
+                    <img src={require("./assets/linkedin_logo.png")} alt="LinkedIn Logo" id="byui" />
+                    <h3>LinkedIn Learning</h3>
+                    <p>In the BYU-Idaho CSE 453 cirriculum, students were required to participate in two LinkedIn Learning programs. Those programs were (in order of completion):</p>
+                    <ol>
+                        <li>Secure Coding in Python</li>
+                        <li>Learning the OWASP Top 10</li>
+                    </ol>
+                    <p>The following certifications were rewarded after completing the two programs:</p>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/learning/certificates/2236364fa677cc98311b70a004669d319ff6d56f4f172862cbb9722cbadfa9c2?accountId=2153100&u=2153100&success=true&authUUID=taPmh%2Fv2QFyBnAZFFnkyDw%3D%3D" className="link" target="_blank">Secure Coding in Python</a></li>
+                        <li><a href="https://www.linkedin.com/learning/certificates/e321dc294a21173a1cdcb34c26a6287d5a50ea05282dd1f12fb26a4258f93923" className="link" target="_blank">OWASP Top 10</a></li>
+                    </ul>
+                    <p><i><b>Note</b>: The OWASP Top 10 certification page is currently not found. I am researching ways to resolve that issue.</i></p>
                 </WideImageCard>
                 <WideImageCard newId="readMore1" newTargetId="#readMore1">
                     <img src={require("./assets/sololearn.jpg")} alt="SoloLearn Logo" id="streamit" />
                     <h3>SoloLearn Certifications</h3>
-
+                    <p>In the BYU-Idaho CSE 340 cirriculum, students were highly encouraged to pursue a PHP certificate through SoloLearn to better understand best coding practices and quality in PHP.</p>
+                    <p>The following certificate was earned upon completion of the PHP course: <a href="https://www.sololearn.com/Certificate/CT-CMUUBPVO/jpg" className="link" target="_blank">PHP Course</a></p>
+                    <p>I have uploaded my PHP assignment from the BYU-I CSE 340 course to GitHub. Please see here: <a href="https://github.com/Android-JCPP-Servo/phpmotors" className="link" target="_blank">PHPMotors</a></p>
                 </WideImageCard>
             </div>
             <Return/>
