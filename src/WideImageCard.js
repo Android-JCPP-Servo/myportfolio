@@ -9,7 +9,7 @@ const WideImageCard = props => {
         }
     }
     const handleInnerText = (e) => {
-        if (e.target.innerText == "Read more...") {
+        if (e.target.innerText === "Read more...") {
             e.target.innerText = "Read less...";
         } else {
             e.target.innerText = "Read more...";
@@ -22,9 +22,9 @@ const WideImageCard = props => {
                     {props.children[0]}
                 </div>
                 <div className="col-md-6">
-                    {rowsOuter.length != 0 && rowsOuter}
+                    {rowsOuter.length !== 0 && rowsOuter}
                     {
-                        rowsInner.length != 0 && <div>
+                        rowsInner.length !== 0 && <div>
                             <div className="collapse" id={props.newId}>{rowsInner}</div>
                             <button className="btn btn-primary readMore" type="button" data-bs-toggle="collapse" data-bs-target={props.newTargetId} aria-expanded="false" aria-controls={props.newId} id="readMoreButton" onClick={handleInnerText}>Read more...</button>
                         </div>
