@@ -65,7 +65,7 @@ const Certifications = () => {
                         <li>Secure Coding in Python</li>
                         <li>Learning the OWASP Top 10</li>
                     </ul>
-                    <li>Completion Certificates:</li>
+                    <li>Certificates of Completion:</li>
                     <ul>
                         <li><a href="https://www.linkedin.com/learning/certificates/2236364fa677cc98311b70a004669d319ff6d56f4f172862cbb9722cbadfa9c2?accountId=2153100&u=2153100&success=true&authUUID=taPmh%2Fv2QFyBnAZFFnkyDw%3D%3D" className="link" target="_blank">Secure Coding in Python</a></li>
                         <li><a href="https://www.linkedin.com/learning/certificates/e321dc294a21173a1cdcb34c26a6287d5a50ea05282dd1f12fb26a4258f93923" className="link" target="_blank">OWASP Top 10</a></li>
@@ -76,9 +76,10 @@ const Certifications = () => {
             <WideImageCard newId="readMore1" newTargetId="#readMore1">
                 <img src={require("./assets/sololearn.jpg")} alt="SoloLearn Logo" className="streamit" />
                 <h3>SoloLearn Certifications</h3>
-                <p>In the BYU-Idaho CSE 340 cirriculum, students were highly encouraged to pursue a PHP certificate through SoloLearn to better understand best coding practices and quality in PHP.</p>
-                <p>The following certificate was earned upon completion of the PHP course: <a href="https://www.sololearn.com/Certificate/CT-CMUUBPVO/jpg" className="link" target="_blank">PHP Course</a></p>
-                <p>I have uploaded my PHP assignment from the BYU-I CSE 340 course to GitHub. Please see here: <a href="https://github.com/Android-JCPP-Servo/phpmotors" className="link" target="_blank">PHPMotors</a></p>
+                <ul>
+                    <li>Purpose - To learn best coding practices in PHP, students in the BYU-I CSE 340 class were encouraged to pursue a PHP certificate through SoloLearn.</li>
+                    <li>Certificate of Completion - <a href="https://www.sololearn.com/Certificate/CT-CMUUBPVO/jpg" className="link" target="_blank">PHP Certificate</a></li>
+                </ul>
             </WideImageCard>
             <Return/>
         </Container>
