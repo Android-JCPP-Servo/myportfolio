@@ -75,6 +75,7 @@ const Work = () => {
                         <li>Effective verbal and visual communication</li>
                         <li>Leadership experience</li>
                         <li>Budgeting for different resources</li>
+                        <li>Data submission and feedback analysis</li>
                     </ul>
                 </ul>
             </WideImageCard>
