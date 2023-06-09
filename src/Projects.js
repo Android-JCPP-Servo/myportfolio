@@ -12,7 +12,7 @@ const Projects = () => {
             <div className="row">
                 <TitleCard pageTitle="Projects"></TitleCard>
                 <WideImageCard newId="readMore1" newTargetId="#readMore1">
-                    <img src={require("./assets/jack_icon.jpg")} alt="Jack Symbol" id="streamit"/>
+                    <img src={require("./assets/jack_icon.jpg")} alt="Jack Symbol" className="streamit"/>
                     <h3>JACK - Personal Voice Assistant (AI)</h3>
                     <p>JACK was created for two reasons:</p>
                     <ol>
@@ -35,7 +35,7 @@ const Projects = () => {
                     </ul>
                 </WideImageCard>
                 <WideImageCard newId="readMore2" newTargetId="#readMore2">
-                    <img src={require("./assets/cyberlandr_logo.png")} alt="CyberLandr Logo Icon" id="streamit"/>
+                    <img src={require("./assets/cyberlandr_logo.png")} alt="CyberLandr Logo Icon" className="streamit"/>
                     <h3>CyberLandr™</h3>
                     <p><i>Note: The CyberLandr™ logo is property of Stream It, Inc., and is used here only for project description purposes. It may not be used for any other purpose without direct consent from the original owner.</i></p>
                     <p>This website is designed to help customers smoothly place a reservation for Stream It, Inc.'s most recent product - CyberLandr™. The product will transform Tesla's Cybertruck into a modern lifestyle vehicle capable of providing adventure and amazing camping experiences on all sorts of terrains.</p>
@@ -55,7 +55,7 @@ const Projects = () => {
                     </ul>
                 </WideImageCard>
                 <WideImageCard newId="readMore3" newTargetId="#readMore3">
-                    <img src={require("./assets/boma_project_icon.png")} alt="BOMA! BMI Calculator App Icon" id="streamit" />
+                    <img src={require("./assets/boma_project_icon.png")} alt="BOMA! BMI Calculator App Icon" className="streamit" />
                     <h3>BOMA! BMI Calculator App</h3>
                     <p>This is a calculator designed to help determine user BMI values.</p>
                     <p>The user will provide their name, gender, height, weight, a goal weight, and their age. The calculator will then produce results indicating what BMI category the user falls under, based on their input. Additionally, the calculator will offer some general suggestions* on how to improve BMI results regardless of the user's goals or BMI value. The user may also track their progress via the Progress Graph, which will display both their current and goal weights. Lastly, the user may create multiple profiles if they wish. These profiles may be other family members, friends, or even fictional persons. The overall experience will allow the user full control of the calculator interface and information displayed based on their input.</p>

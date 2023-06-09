@@ -12,7 +12,7 @@ const Schooling = () => {
             <div className="row">
                 <TitleCard pageTitle="Schooling" />
                 <WideImageCard newId="readMore1" newTargetId="#readMore1">
-                    <img src={require("./assets/1200px-Brigham_Young_University–Idaho_medallion.svg.png")} alt="Brigham Young University Logo" id="byui" />
+                    <img src={require("./assets/1200px-Brigham_Young_University–Idaho_medallion.svg.png")} alt="Brigham Young University Logo" className="byui" />
                     <h3>CS Student at BYU-Idaho</h3>
                     <p>On April 6, 2023, I graduated from Brigham Young University - Idaho with a degree in Computer Science.</p>
                     <p>My original focus for BYU-I was to learn programming for robotics. I enjoy building and working with robots. However, my schooling career led me down a different path.</p>
@@ -23,7 +23,7 @@ const Schooling = () => {
             </div>
             <div className="row">
                 <WideImageCard newId="readMore2" newTargetId="#readMore2">
-                    <img src={require("./assets/codecademy.jpg")} alt="Codecademy Logo" id="byui" />
+                    <img src={require("./assets/codecademy.jpg")} alt="Codecademy Logo" className="byui" />
                     <h3>Codecademy<sup>TM</sup> Professional Certifications</h3>
                     <p>For the past two years, I have been pursuing additional certifications to augment my schooling experience, including learning additional programming languages and platforms and gaining Full-Stack Development expertise.</p>
                     <p>Through Codecademy, I have gained the following certifications:</p>
@@ -39,7 +39,7 @@ const Schooling = () => {
             </div>
             <div className="row">
                 <WideImageCard newId="readMore3" newTargetId="#readMore3">
-                    <img src={require("./assets/mco_choir_and_orchestra.png")} alt="Brigham Young University Logo" id="byui" />
+                    <img src={require("./assets/mco_choir_and_orchestra.png")} alt="Brigham Young University Logo" className="byui" />
                     <h3>Millennial Choirs & Orchestra</h3>
                     <p>My vocal experience started in a community children's choir in which I participated for years. In my late teen and adults years, my experience includes singing in church choirs comprised of all-male and mixed female-and-male choirs with all four parts. I have also performed solos with accompaniment for Church Christmas events. In addition, I have experience with making a personal professional-grade recording in a recording studio. The recording consisted of me singing solo pieces with accompaniment.</p>
                     <p>I have recently joined the Millennial Choirs and Orchestra (MCO), singing in the Baritone section. Our focus is to sing hymns and other songs that point to the Reason for the Season. MCO also performs nationwide, going on tour once a year to locations such as Carnegie Hall to perform pre-selected hymns and other songs.</p>

@@ -6,7 +6,7 @@ const Home = () => {
         <div className="container mb-5">
             <div className="row">
                 <WideImageCard newId="readMore1" newTargetId="#readMore1">
-                    <img src={require("./assets/andersen_stewart_05-15-2023.png")} alt="Picture of Andersen Stewart wearing button shirt" id="andersen"/>
+                    <img src={require("./assets/andersen_stewart_05-15-2023.png")} alt="Picture of Andersen Stewart wearing button shirt" className="andersen"/>
                     <h1>Andersen Stewart</h1>
                     <p>Howdy! Thank you so much for viewing my portfolio.</p>
                     <p>My name is Andersen Stewart, and I am a recent graduate of the Brigham Young University - Idaho Computer Science program.</p>
@@ -20,13 +20,13 @@ const Home = () => {
                 </WideImageCard>
             </div>
             <div className="row">
-                <NarrowImageCard src={require("./assets/1200px-Brigham_Young_University–Idaho_medallion.svg.png")} alt="Brigham Young University Logo" id="byui" title="Schooling" text="My schooling experience leading up to my chosen profession." toPage="/schooling" btnText="My School Experience"/>
+                <NarrowImageCard src={require("./assets/1200px-Brigham_Young_University–Idaho_medallion.svg.png")} alt="Brigham Young University Logo" className="byui" title="Schooling" text="My schooling experience leading up to my chosen profession." toPage="/schooling" btnText="My School Experience"/>
 
-                <NarrowImageCard src={require("./assets/handshake-icon-35511.png")} alt="Green Work Icon" id="streamit" title="Work & Profession" text="All positions and opportunities I have had within my chosen profession." toPage="/work" btnText="My Work Experience"/>
+                <NarrowImageCard src={require("./assets/handshake-icon-35511.png")} alt="Green Work Icon" className="streamit" title="Work & Profession" text="All positions and opportunities I have had within my chosen profession." toPage="/work" btnText="My Work Experience"/>
 
-                <NarrowImageCard src={require("./assets/boma_project_icon.png")} alt="Boma Project Icon" id="byui" title="Projects" text="All projects started and completed during school and work careers." toPage="/projects" btnText="My Projects"/>
+                <NarrowImageCard src={require("./assets/boma_project_icon.png")} alt="Boma Project Icon" className="byui" title="Projects" text="All projects started and completed during school and work careers." toPage="/projects" btnText="My Projects"/>
 
-                <NarrowImageCard src={require("./assets/codecademy.jpg")} alt="" id="byui" title="Certifications" text="All certifications gained for personal and professional development." toPage="/certifications" btnText="My Certifications" />
+                <NarrowImageCard src={require("./assets/codecademy.jpg")} alt="" className="byui" title="Certifications" text="All certifications gained for personal and professional development." toPage="/certifications" btnText="My Certifications" />
             </div>
         </div>
     );

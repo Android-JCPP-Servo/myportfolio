@@ -12,7 +12,7 @@ const Certifications = () => {
             <div className="row">
                 <TitleCard pageTitle="Certifications"></TitleCard>
                 <WideImageCard newId="readMore5" newTargetId="#readMore5">
-                    <img src={require("./assets/amazon6707.jpg")} alt="Amazon Logo" id="streamit" />
+                    <img src={require("./assets/amazon6707.jpg")} alt="Amazon Logo" className="streamit" />
                     <h3>Amazon AWS Certifications</h3>
                     <p>During recent job hunts and research, many software companies have asked for developers with AWS experience. To prepare for such jobs, I have started pursuing AWS certifications to offer the skills necessary for the work involved.</p>
                     <p>Currently, I am pursuing the <a href=" https://aws.amazon.com/certification/certified-cloud-practitioner/?ch=sec&amp;sec=rmg&amp;d=1" target="_blank" className="link">AWS Cloud Practitioner - Foundational</a> certification, which covers the entire basics of AWS and Amazon cloud technologies. In addition, I will be pursuing the following certification(s) after the completion of the Foundational certification:</p>
@@ -21,7 +21,7 @@ const Certifications = () => {
                     </ul>
                 </WideImageCard>
                 <WideImageCard newId="readMore4" newTargetId="#readMore4">
-                    <img src={require("./assets/microsoft_logo.png")} alt="Microsoft Logo" id="streamit"/>
+                    <img src={require("./assets/microsoft_logo.png")} alt="Microsoft Logo" className="streamit"/>
                     <h3>Microsoft Certifications</h3>
                     <p>Similar to my Amazon certifications, many tech companies have posted a strong interest in software engineers who have knowledge of and/or certifications in Microsoft Azure. To help fulfill such needs, I have begun pursuing certifications in Azure.</p>
                     <p>Currently, I have no certifications in Azure, but am in the process of completing the <a className="link" target="_blank" href="https://learn.microsoft.com/en-us/certifications/azure-fundamentals/">Microsoft Azure Fundamentals</a> certification.</p>
@@ -35,7 +35,7 @@ const Certifications = () => {
                     </ul>
                 </WideImageCard>
                 <WideImageCard newId="readMore3" newTargetId="#readMore3">
-                    <img src={require("./assets/codecademy.jpg")} alt="Codecademy Logo" id="streamit" />
+                    <img src={require("./assets/codecademy.jpg")} alt="Codecademy Logo" className="streamit" />
                     <h3>Codecademy Certifications</h3>
                     <p>Within the past year, I have obtained certificates of completion for the following Codecademy courses (from newest to oldest):</p>
                     <ul>
@@ -50,7 +50,7 @@ const Certifications = () => {
                     <p>A major goal I have is to learn how C# and .NET are used for web-app development. According to <a className="link" href="https://www.codecademy.com/courses/learn-c-sharp/lessons/csharp-hello-world/exercises/c-sharp-in-the-wild" target="_blank">Codecademy</a>, C# can increase requests per second by 2,000%, which will greatly enhance the user experience of a web application. It is my goal to learn how to program a web application using C#, so my future web app experience will be helpful in enhancing UX/UI experience for clientele.</p>
                 </WideImageCard>
                 <WideImageCard newId="readMore2" newTargetId="#readMore2">
-                    <img src={require("./assets/linkedin_logo.png")} alt="LinkedIn Logo" id="byui" />
+                    <img src={require("./assets/linkedin_logo.png")} alt="LinkedIn Logo" className="byui" />
                     <h3>LinkedIn Learning</h3>
                     <p>In the BYU-Idaho CSE 453 cirriculum, students were required to participate in two LinkedIn Learning programs. Those programs were (in order of completion):</p>
                     <ol>
@@ -65,7 +65,7 @@ const Certifications = () => {
                     <p><i><b>Note</b>: The OWASP Top 10 certification page is currently not found. I am researching ways to resolve that issue.</i></p>
                 </WideImageCard>
                 <WideImageCard newId="readMore1" newTargetId="#readMore1">
-                    <img src={require("./assets/sololearn.jpg")} alt="SoloLearn Logo" id="streamit" />
+                    <img src={require("./assets/sololearn.jpg")} alt="SoloLearn Logo" className="streamit" />
                     <h3>SoloLearn Certifications</h3>
                     <p>In the BYU-Idaho CSE 340 cirriculum, students were highly encouraged to pursue a PHP certificate through SoloLearn to better understand best coding practices and quality in PHP.</p>
                     <p>The following certificate was earned upon completion of the PHP course: <a href="https://www.sololearn.com/Certificate/CT-CMUUBPVO/jpg" className="link" target="_blank">PHP Course</a></p>
