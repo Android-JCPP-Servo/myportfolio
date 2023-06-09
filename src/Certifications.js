@@ -5,9 +5,9 @@ import WideImageCard from "./WideImageCard";
 import Container from "./Container";
 
 const Certifications = () => {
-    useLayoutEffect(() => {
-        window.scrollTo(0, 0);
-    });
+    // useLayoutEffect(() => {
+    //     window.scrollTo(0, 0);
+    // });
     return (
         <Container>
             <TitleCard pageTitle="Certifications"></TitleCard>
@@ -26,7 +26,7 @@ const Certifications = () => {
                 <ul>
                     <li>Purpose - To develop skills for jobs that require Azure experience or certifications.</li>
                     <li>In-Progress - <a className="link" target="_blank" href="https://learn.microsoft.com/en-us/certifications/azure-fundamentals/">Microsoft Azure Fundamentals</a></li>
-                    <li>In-Line -</li>
+                    <li>In-Line:</li>
                     <ul>
                         <li><a href="https://learn.microsoft.com/en-us/certifications/azure-ai-fundamentals/" target="_blank" className="link">Azure AI Fundamentals</a></li>
                         <li><a href="https://learn.microsoft.com/en-us/certifications/microsoft-365-fundamentals/" target="_blank" className="link">Microsoft 365 Fundamentals</a></li>
@@ -37,17 +37,23 @@ const Certifications = () => {
             <WideImageCard newId="readMore3" newTargetId="#readMore3">
                 <img src={require("./assets/codecademy.jpg")} alt="Codecademy Logo" className="streamit" />
                 <h3>Codecademy Certifications</h3>
-                <p>Within the past year, I have obtained certificates of completion for the following Codecademy courses (from newest to oldest):</p>
                 <ul>
-                    <li>C#</li>
-                    <li>React</li>
-                    <li>Git & GitHub</li>
-                    <li>JavaScript</li>
-                    <li>Cascading Style Sheets (CSS)</li>
-                    <li>HTML</li>
+                    <li>Purpose - To enhance my programming fluency for jobs that require experience in or exposure to several languages.</li>
+                    <li>Completed Certifications:</li>
+                    <ul>
+                        <li>C#</li>
+                        <li>React</li>
+                        <li>Git & GitHub</li>
+                        <li>JavaScript</li>
+                        <li>Cascading Style Sheets (CSS)</li>
+                        <li>HTML</li>
+                    </ul>
+                    <li>Goal(s):</li>
+                    <ul>
+                        <li>Complete the Full-Stack Engineer Certification</li>
+                        <li>Learn how C# and .NET are used to develop web apps</li>
+                    </ul>
                 </ul>
-                <p>These were all obtained for different purposes, but the primary objective was to enhance my programming knowledge and skills in a variety of languages.</p>
-                <p>A major goal I have is to learn how C# and .NET are used for web-app development. According to <a className="link" href="https://www.codecademy.com/courses/learn-c-sharp/lessons/csharp-hello-world/exercises/c-sharp-in-the-wild" target="_blank">Codecademy</a>, C# can increase requests per second by 2,000%, which will greatly enhance the user experience of a web application. It is my goal to learn how to program a web application using C#, so my future web app experience will be helpful in enhancing UX/UI experience for clientele.</p>
             </WideImageCard>
             <WideImageCard newId="readMore2" newTargetId="#readMore2">
                 <img src={require("./assets/linkedin_logo.png")} alt="LinkedIn Logo" className="byui" />
