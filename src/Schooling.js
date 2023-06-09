@@ -13,12 +13,32 @@ const Schooling = () => {
                 <TitleCard pageTitle="Schooling" />
                 <WideImageCard newId="readMore1" newTargetId="#readMore1">
                     <img src={require("./assets/1200px-Brigham_Young_University–Idaho_medallion.svg.png")} alt="Brigham Young University Logo" className="byui" />
-                    <h3>CS Student at BYU-Idaho</h3>
-                    <p>On April 6, 2023, I graduated from Brigham Young University - Idaho with a degree in Computer Science.</p>
+                    <h3>Bachelor of Science in Software Engineering</h3>
+                    <ul>
+                        <li>Graduated - Cum Laude</li>
+                        <li>GPA - 3.946</li>
+                        <li>Team Lead in the following classes:</li>
+                        <ul>
+                            <li>CSE 246 - Software Design & Development</li>
+                            <li>CSE 340 - Web Backend Development</li>
+                            <li>CSE 270 - Software Testing</li>
+                        </ul>
+                        <li>Internship:</li>
+                        <ul>
+                            <li>Location - <a href="https://www.streamit.live/" target="_blank" className="link">Stream It, Inc. (Remote)</a></li>
+                            <li>Intern - 7 months</li>
+                            <li>Full-Time - 1 year, 9 months</li>
+                            <li>Responsibilities:</li>
+                            <ul>
+                                <li>Be mentored in Vue.js, React.js, and JSX</li>
+                            </ul>
+                        </ul>
+                    </ul>
+                    {/* <p>On April 6, 2023, I graduated from Brigham Young University - Idaho with a degree in Computer Science.</p>
                     <p>My original focus for BYU-I was to learn programming for robotics. I enjoy building and working with robots. However, my schooling career led me down a different path.</p>
                     <p>As time progressed, my interests flowed into Web Development and Design. I thoroughly enjoy watching  websites come to life as I build them. Ever since my first Web Development course, I have been "bit by the bug" and cannot stop building sites.</p>
                     <p>My internship and Senior Project were both heavily involved in Web Development and Design. During my internship, I helped build the product website for <a href="https://www.streamit.live/" target="_blank" className="link">Stream It, Inc.</a> using Vue.js. Now, during my Senior Project, I am rebuilding the website using Drupal.</p>
-                    <p>While these projects and courses were not originally what I intended, my interest in them has been more than piqued, and I cannot wait to continue building websites and other desktop and mobile applications.</p>
+                    <p>While these projects and courses were not originally what I intended, my interest in them has been more than piqued, and I cannot wait to continue building websites and other desktop and mobile applications.</p> */}
                 </WideImageCard>
             </div>
             <div className="row">
