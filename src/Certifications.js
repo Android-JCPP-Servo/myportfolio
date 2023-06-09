@@ -14,25 +14,16 @@ const Certifications = () => {
             <WideImageCard newId="readMore5" newTargetId="#readMore5">
                 <img src={require("./assets/amazon6707.jpg")} alt="Amazon Logo" className="streamit" />
                 <h3>Amazon AWS Certifications</h3>
-                <p>During recent job hunts and research, many software companies have asked for developers with AWS experience. To prepare for such jobs, I have started pursuing AWS certifications to offer the skills necessary for the work involved.</p>
-                <p>Currently, I am pursuing the <a href=" https://aws.amazon.com/certification/certified-cloud-practitioner/?ch=sec&amp;sec=rmg&amp;d=1" target="_blank" className="link">AWS Cloud Practitioner - Foundational</a> certification, which covers the entire basics of AWS and Amazon cloud technologies. In addition, I will be pursuing the following certification(s) after the completion of the Foundational certification:</p>
                 <ul>
-                    <li><a href="https://aws.amazon.com/certification/certified-developer-associate/?ch=tile&amp;tile=getstarted" target="_blank" className="link">Amazon AWS - Software Developer Engineer - Associate</a></li>
+                    <li>Purpose - To develop skills to jobs that require AWS experience or certifications.</li>
+                    <li>In-Progress - <a href=" https://aws.amazon.com/certification/certified-cloud-practitioner/?ch=sec&amp;sec=rmg&amp;d=1" target="_blank" className="link">Amazon AWS - Cloud Practitioner - Foundational</a></li>
+                    <li>In-Line - <a href="https://aws.amazon.com/certification/certified-developer-associate/?ch=tile&amp;tile=getstarted" target="_blank" className="link">Amazon AWS - Software Developer Engineer - Associate</a></li>
                 </ul>
             </WideImageCard>
             <WideImageCard newId="readMore4" newTargetId="#readMore4">
                 <img src={require("./assets/microsoft_logo.png")} alt="Microsoft Logo" className="streamit"/>
                 <h3>Microsoft Certifications</h3>
-                <p>Similar to my Amazon certifications, many tech companies have posted a strong interest in software engineers who have knowledge of and/or certifications in Microsoft Azure. To help fulfill such needs, I have begun pursuing certifications in Azure.</p>
-                <p>Currently, I have no certifications in Azure, but am in the process of completing the <a className="link" target="_blank" href="https://learn.microsoft.com/en-us/certifications/azure-fundamentals/">Microsoft Azure Fundamentals</a> certification.</p>
-                <p>Other Microsoft certification(s) I am interested in are:</p>
-                <ul>
-                    <li><a href="https://learn.microsoft.com/en-us/certifications/azure-ai-fundamentals/" target="_blank" className="link">Azure AI Fundamentals</a></li>
-
-                    <li><a href="https://learn.microsoft.com/en-us/certifications/microsoft-365-fundamentals/" target="_blank" className="link">Microsoft 365 Fundamentals</a></li>
-
-                    <li><a href="https://learn.microsoft.com/en-us/certifications/security-compliance-and-identity-fundamentals/" target="_blank" className="link">Security, Compliance, and Identity (SCI) Fundamentals</a></li>
-                </ul>
+                
             </WideImageCard>
             <WideImageCard newId="readMore3" newTargetId="#readMore3">
                 <img src={require("./assets/codecademy.jpg")} alt="Codecademy Logo" className="streamit" />
