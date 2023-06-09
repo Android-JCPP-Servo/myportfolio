@@ -14,8 +14,8 @@ const Schooling = () => {
                 <WideImageCard newId="readMore1" newTargetId="#readMore1">
                     <img src={require("./assets/1200px-Brigham_Young_University–Idaho_medallion.svg.png")} alt="Brigham Young University Logo" id="byui" />
                     <h3>CS Student at BYU-Idaho</h3>
-                    <p>I graduated from high school in 2016, and did not hesitate to jump into college. I completed several of my generals before leaving for my full-time proselyting mission in Chicago, IL. After returning home, I plunged right back into school, and am expected to graduate April 2023.</p>
-                    <p>My original focus for Brigham Young University - Idaho was to program for robotics. I enjoy building and working with robots. However, my schooling career led me down a different path.</p>
+                    <p>On April 6, 2023, I graduated from Brigham Young University - Idaho with a degree in Computer Science.</p>
+                    <p>My original focus for BYU-I was to learn programming for robotics. I enjoy building and working with robots. However, my schooling career led me down a different path.</p>
                     <p>As time progressed, my interests flowed into Web Development and Design. I thoroughly enjoy watching  websites come to life as I build them. Ever since my first Web Development course, I have been "bit by the bug" and cannot stop building sites.</p>
                     <p>My internship and Senior Project were both heavily involved in Web Development and Design. During my internship, I helped build the product website for <a href="https://www.streamit.live/" target="_blank" className="link">Stream It, Inc.</a> using Vue.js. Now, during my Senior Project, I am rebuilding the website using Drupal.</p>
                     <p>While these projects and courses were not originally what I intended, my interest in them has been more than piqued, and I cannot wait to continue building websites and other desktop and mobile applications.</p>
