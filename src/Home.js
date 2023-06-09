@@ -20,7 +20,7 @@ const Home = () => {
                 </WideImageCard>
             </div>
             <div className="row">
-                <NarrowImageCard src={require("./assets/1200px-Brigham_Young_University–Idaho_medallion.svg.png")} alt="Brigham Young University Logo" className="byui" title="Schooling" text="My schooling experience leading up to my chosen profession." toPage="/schooling" btnText="My School Experience"/>
+                <NarrowImageCard src={require("./assets/1200px-Brigham_Young_University–Idaho_medallion.svg.png")} alt="Brigham Young University Logo" className="byui" title="Education" text="My educational experience leading up to my chosen profession." toPage="/schooling" btnText="My School Experience"/>
 
                 <NarrowImageCard src={require("./assets/handshake-icon-35511.png")} alt="Green Work Icon" className="streamit" title="Work & Profession" text="All positions and opportunities I have had within my chosen profession." toPage="/work" btnText="My Work Experience"/>
 
