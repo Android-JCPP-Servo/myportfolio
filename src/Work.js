@@ -20,7 +20,36 @@ const Work = () => {
             <WideImageCard newId="readMore1" newTargetId="#readMore1">
                 <img src={require("./assets/streamit logo.jpg")} alt="Stream It, Inc. Logo" className="streamit" />
                 <h3>Full-Stack Web Developer at Stream It, Inc.</h3>
-                <p>In October 2021, I was interviewed for a Web Developer Intern position at Stream It, Inc. At the time, the company's product website was being built with Vue.js, a framework that provides functionality similar to React or Angular. I was asked to help finish that website so the company could deploy it for product reservations and other purchases.</p>
+                <ul>
+                    <li>Timeline</li>
+                    <ul>
+                        <li>Intern - 7 months</li>
+                        <li>Employee - 1 year, 3 months</li>
+                    </ul>
+                    <li>Responsibilities:</li>
+                    <ul>
+                        <li>Develop SendGrid API and RESTful services to send bulk emails</li>
+                        <li>Create Firebase servers and databases to securely store customer information</li>
+                        <li>Build and debug cloud functions to handle back-end FETCH requests</li>
+                        <li>Research, develop, and update Drupal, Vue.js, and Node.js dependencies</li>
+                        <li>Ensure website responsiveness and optimization for mobile and desktop screens</li>
+                        <li>Work with UX/UI team to integrate new Drupal instance and Sketch designs</li>
+                        <li>Document Drupal instance system requirement specifications (SRS)</li>
+                        <li>Build interactive UI for cusomer product reservations</li>
+                        <li>Present Drupal, GitHub, and Cloud Function security measures in meetings</li>
+                    </ul>
+                    <li>Skills Gained:</li>
+                    <ul>
+                        <li>Vue.js and Drupal Content Management Software (CMS)</li>
+                        <li>RESTful APIs</li>
+                        <li>Stripe</li>
+                        <li>Ecwid</li>
+                        <li>Firebase</li>
+                        <li>SendGrid</li>
+                        <li>Sketch</li>
+                    </ul>
+                </ul>
+                {/* <p>In October 2021, I was interviewed for a Web Developer Intern position at Stream It, Inc. At the time, the company's product website was being built with Vue.js, a framework that provides functionality similar to React or Angular. I was asked to help finish that website so the company could deploy it for product reservations and other purchases.</p>
                 <p>Now, I am one of their full-stack web developers currently focusing on redeploying their product website using Drupal. Drupal is an open-source content management software (CMS) that helps reduce time in manually writing code and allows for simple layout design and eCommerce integration.</p>
                 <p>During my internship with Stream It, Inc., I have learned about and gained several certifications in web development languages, including HTML5, CSS3, and JavaScript. I have also gained insights and experience with the following:</p>
                 <ul>
@@ -37,7 +66,7 @@ const Work = () => {
                         </ul>
                     </li>
                 </ul>
-                <p>The website I am building is for the company's main flag-ship product: <a href="https://cyberlandr.com/" target="_blank" className="link">CyberLandr</a><sup>TM</sup>. CyberLandr<sup>TM</sup> is designed to transform Tesla's new Cybertruck into the ultimate lifestyle vehicle, allowing customers to travel all sorts of terrain. No matter where the adventurer travels or wanders, CyberLandr<sup>TM</sup> will always provide the comforts of home currently missed in the RV industry today.</p>
+                <p>The website I am building is for the company's main flag-ship product: <a href="https://cyberlandr.com/" target="_blank" className="link">CyberLandr</a><sup>TM</sup>. CyberLandr<sup>TM</sup> is designed to transform Tesla's new Cybertruck into the ultimate lifestyle vehicle, allowing customers to travel all sorts of terrain. No matter where the adventurer travels or wanders, CyberLandr<sup>TM</sup> will always provide the comforts of home currently missed in the RV industry today.</p> */}
             </WideImageCard>
             <WideImageCard newId="readMore2" newTargetId="#readMore2">
                 <img src={require("./assets/churchofjesuschrist.jpg")} alt="Church of Jesus Christ Logo" className="streamit" />
