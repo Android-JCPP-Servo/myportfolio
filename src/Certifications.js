@@ -15,7 +15,7 @@ const Certifications = () => {
                 <img src={require("./assets/amazon6707.jpg")} alt="Amazon Logo" className="streamit" />
                 <h3>Amazon AWS Certifications</h3>
                 <ul>
-                    <li>Purpose - To develop skills to jobs that require AWS experience or certifications.</li>
+                    <li>Purpose - To develop skills for jobs that require AWS experience or certifications.</li>
                     <li>In-Progress - <a href=" https://aws.amazon.com/certification/certified-cloud-practitioner/?ch=sec&amp;sec=rmg&amp;d=1" target="_blank" className="link">Amazon AWS - Cloud Practitioner - Foundational</a></li>
                     <li>In-Line - <a href="https://aws.amazon.com/certification/certified-developer-associate/?ch=tile&amp;tile=getstarted" target="_blank" className="link">Amazon AWS - Software Developer Engineer - Associate</a></li>
                 </ul>
@@ -23,7 +23,16 @@ const Certifications = () => {
             <WideImageCard newId="readMore4" newTargetId="#readMore4">
                 <img src={require("./assets/microsoft_logo.png")} alt="Microsoft Logo" className="streamit"/>
                 <h3>Microsoft Certifications</h3>
-                
+                <ul>
+                    <li>Purpose - To develop skills for jobs that require Azure experience or certifications.</li>
+                    <li>In-Progress - <a className="link" target="_blank" href="https://learn.microsoft.com/en-us/certifications/azure-fundamentals/">Microsoft Azure Fundamentals</a></li>
+                    <li>In-Line -</li>
+                    <ul>
+                        <li><a href="https://learn.microsoft.com/en-us/certifications/azure-ai-fundamentals/" target="_blank" className="link">Azure AI Fundamentals</a></li>
+                        <li><a href="https://learn.microsoft.com/en-us/certifications/microsoft-365-fundamentals/" target="_blank" className="link">Microsoft 365 Fundamentals</a></li>
+                        <li><a href="https://learn.microsoft.com/en-us/certifications/security-compliance-and-identity-fundamentals/" target="_blank" className="link">Security, Compliance, and Identity (SCI) Fundamentals</a></li>
+                    </ul>
+                </ul>
             </WideImageCard>
             <WideImageCard newId="readMore3" newTargetId="#readMore3">
                 <img src={require("./assets/codecademy.jpg")} alt="Codecademy Logo" className="streamit" />
