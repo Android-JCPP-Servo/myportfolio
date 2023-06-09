@@ -4,9 +4,9 @@ import Return from './Return';
 import { useLayoutEffect } from "react";
 
 const Projects = () => {
-    useLayoutEffect(() => {
-        window.scrollTo(0, 0);
-    });
+    // useLayoutEffect(() => {
+    //     window.scrollTo(0, 0);
+    // });
     return (
         <div className="container mb-5">
             <div className="row">
@@ -37,30 +37,56 @@ const Projects = () => {
                 <WideImageCard newId="readMore2" newTargetId="#readMore2">
                     <img src={require("./assets/cyberlandr_logo.png")} alt="CyberLandr Logo Icon" className="streamit"/>
                     <h3>CyberLandr™</h3>
-                    <p><i>Note: The CyberLandr™ logo is property of Stream It, Inc., and is used here only for project description purposes. It may not be used for any other purpose without direct consent from the original owner.</i></p>
-                    <p>This website is designed to help customers smoothly place a reservation for Stream It, Inc.'s most recent product - CyberLandr™. The product will transform Tesla's Cybertruck into a modern lifestyle vehicle capable of providing adventure and amazing camping experiences on all sorts of terrains.</p>
-                    <p>The current website is provided here: <a className="link" href="https://cyberlandr.com">https://cyberlandr.com/</a></p>
-                    <p>Primary Skills Gained with this Project:</p>
                     <ul>
-                        <li>HTML5</li>
-                        <li>REST APIs</li>
-                        <li>JSON</li>
-                        <li>Model-View-Controller (MVC) Architecture</li>
-                        <li>Node.js</li>
-                        <li>Vue.js</li>
-                        <li>Software Development Life Cycle (SDLC)</li>
-                        <li>Responsive Web Design</li>
-                        <li>Problem Solving</li>
-                        <li>Techinical Documentation via Coda</li>
+                        <li>Project Purpose - Transform Tesla's Cybertruck into a modern lifestyle vehicle capable of providing adventure and amazing camping experiences on all sorts of terrains.</li>
+                        <li>My Responsibilities:</li>
+                        <ul>
+                            <li>Design a website to help customers easily place reservations for CyberLandr™</li>
+                            <li>Ensure the website is maintained and up-to-date in Drupal and Vue.js instances</li>
+                            <li>Track analytics for web app traffic and customer usage</li>
+                        </ul>
+                        <li>Current Website - <a href="https://cyberlandr.com/" className='link' target='_blank'>https://cyberlandr.com/</a></li>
+                        <li>Skills Gained:</li>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>REST APIs</li>
+                            <li>JSON</li>
+                            <li>Model-View-Controller (MVC) Architecture</li>
+                            <li>Node.js</li>
+                            <li>Vue.js</li>
+                            <li>Software Development Life Cycle (SDLC)</li>
+                            <li>Responsive Web Design</li>
+                            <li>Problem Solving</li>
+                            <li>Techinical Documentation via Coda</li>
+                        </ul>
                     </ul>
                 </WideImageCard>
                 <WideImageCard newId="readMore3" newTargetId="#readMore3">
                     <img src={require("./assets/boma_project_icon.png")} alt="BOMA! BMI Calculator App Icon" className="streamit" />
-                    <h3>BOMA! BMI Calculator App</h3>
-                    <p>This is a calculator designed to help determine user BMI values.</p>
-                    <p>The user will provide their name, gender, height, weight, a goal weight, and their age. The calculator will then produce results indicating what BMI category the user falls under, based on their input. Additionally, the calculator will offer some general suggestions* on how to improve BMI results regardless of the user's goals or BMI value. The user may also track their progress via the Progress Graph, which will display both their current and goal weights. Lastly, the user may create multiple profiles if they wish. These profiles may be other family members, friends, or even fictional persons. The overall experience will allow the user full control of the calculator interface and information displayed based on their input.</p>
-                    <p>*While this app may be helpful in determining BMI categories and values, a personal physician or dietitian should by consulted first and foremost for deciding proper dieting procedures. This app is not intended to diagnose individual or group dietary needs.</p>
-                    <p>To view this app, please visit <a className="link" href="https://play.google.com/store/apps/details?id=com.team02.boma">the Play Store</a>.</p>
+                    <h3>BOMA! BMI Calculator&copy; App</h3>
+                    <ul>
+                        <li>Project Purpose - Originally assigned in the BYU-I CSE 246 course, our class teams were required to create an app via Android Studio.</li>
+                        <li>My Responsibilities:</li>
+                        <ul>
+                            <li>Help team construct and design MVC layout for application</li>
+                            <li>Prepare code snippets for front-end UX/UI interactions</li>
+                            <li>Research API for BMI calculations</li>
+                            <li>Finalize presentations for weekly progression submissions</li>
+                            <ul>
+                                <li>Explain and illustrate our progression each week</li>
+                                <li>Show the milestones we achieved as well as any above-and-beyond initiatives we completed</li>
+                            </ul>
+                        </ul>
+                        <li>Google Play Store Link - <a className="link" href="https://play.google.com/store/apps/details?id=com.team02.boma" target='_blank'>BOMA! BMI Calculator</a></li>
+                        <li>Skills Gained:</li>
+                        <ul>
+                            <li>Application upload processes for Google Play Store</li>
+                            <li>Team leadership</li>
+                            <li>Effective verbal and visual communication</li>
+                            <li>Basic Java front-end and back-end development</li>
+                            <li>API research and development</li>
+                        </ul>
+                    </ul>
                 </WideImageCard>
             </div>
             <Return/>
