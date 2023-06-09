@@ -41,26 +41,34 @@ const Schooling = () => {
                 <WideImageCard newId="readMore2" newTargetId="#readMore2">
                     <img src={require("./assets/codecademy.jpg")} alt="Codecademy Logo" className="byui" />
                     <h3>Codecademy<sup>TM</sup> Professional Certifications</h3>
-                    <p>For the past two years, I have been pursuing additional certifications to augment my schooling experience, including learning additional programming languages and platforms and gaining Full-Stack Development expertise.</p>
                     <p>Through Codecademy, I have gained the following certifications:</p>
                     <ul>
                         <li>HTML5</li>
                         <li>CSS3</li>
                         <li>JavaScript</li>
                         <li>Git/GitHub</li>
+                        <li>React</li>
+                        <li>C#</li>
                     </ul>
-                    <p>Currently, I am pursuing a professional certification through Codecademy to become a certified Full-Stack Engineer. According to Codecademy, the certification process is designed to help students "build web applications from start to finish. This path will start with the front-end, move to the back-end, then connect the two."</p>
-                    <p>For additional details regarding this certification process, please visit the <a href="https://www.codecademy.com/career-journey/full-stack-engineer" className="link" target="_blank">Full-Stack Engineer</a> page on the Codecademy website.</p>
+                    <p>In addition, I am pursuing a Professional Certification in the <a href="https://www.codecademy.com/career-journey/full-stack-engineer" className="link" target="_blank">Full-Stack Engineer course</a>. This course teaches the following:</p>
+                    <ul>
+                        <li>Building web applications from start to finish -</li>
+                        <ul>
+                            <li>Starting with the front-end</li>
+                            <li>Moving to the back-end</li>
+                            <li>Connecting the two into a full-stack environment</li>
+                        </ul>
+                    </ul>
                 </WideImageCard>
             </div>
-            <div className="row">
+            {/* <div className="row">
                 <WideImageCard newId="readMore3" newTargetId="#readMore3">
                     <img src={require("./assets/mco_choir_and_orchestra.png")} alt="Brigham Young University Logo" className="byui" />
                     <h3>Millennial Choirs & Orchestra</h3>
                     <p>My vocal experience started in a community children's choir in which I participated for years. In my late teen and adults years, my experience includes singing in church choirs comprised of all-male and mixed female-and-male choirs with all four parts. I have also performed solos with accompaniment for Church Christmas events. In addition, I have experience with making a personal professional-grade recording in a recording studio. The recording consisted of me singing solo pieces with accompaniment.</p>
                     <p>I have recently joined the Millennial Choirs and Orchestra (MCO), singing in the Baritone section. Our focus is to sing hymns and other songs that point to the Reason for the Season. MCO also performs nationwide, going on tour once a year to locations such as Carnegie Hall to perform pre-selected hymns and other songs.</p>
                 </WideImageCard>
-            </div>
+            </div> */}
             <Return/>
         </div>
     );
