@@ -1,6 +1,9 @@
 import {Link} from 'react-router-dom'
+import { useLocation } from 'react-router-dom';
 
 const Navbar = () => {
+    const location = useLocation();
+    const pathname = location.pathname;
     return (
         <nav className="navbar navbar-expand-lg position-fixed w-100 mb-5">
             <div className="container-fluid">
@@ -9,7 +12,22 @@ const Navbar = () => {
                 <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+                    {pathname !== '/' && 
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/schooling">Schooling</Link>
+                            </li> 
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/work">Work</Link>
+                            </li> 
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/projects">Projects</Link>
+                            </li> 
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/certifications">Certifications</Link>
+                            </li>
+                        </ul>
+                    }
 
                     {/* <form className="d-flex" role="search">
                         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
