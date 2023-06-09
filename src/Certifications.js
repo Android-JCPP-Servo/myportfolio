@@ -58,15 +58,18 @@ const Certifications = () => {
             <WideImageCard newId="readMore2" newTargetId="#readMore2">
                 <img src={require("./assets/linkedin_logo.png")} alt="LinkedIn Logo" className="byui" />
                 <h3>LinkedIn Learning</h3>
-                <p>In the BYU-Idaho CSE 453 cirriculum, students were required to participate in two LinkedIn Learning programs. Those programs were (in order of completion):</p>
-                <ol>
-                    <li>Secure Coding in Python</li>
-                    <li>Learning the OWASP Top 10</li>
-                </ol>
-                <p>The following certifications were rewarded after completing the two programs:</p>
                 <ul>
-                    <li><a href="https://www.linkedin.com/learning/certificates/2236364fa677cc98311b70a004669d319ff6d56f4f172862cbb9722cbadfa9c2?accountId=2153100&u=2153100&success=true&authUUID=taPmh%2Fv2QFyBnAZFFnkyDw%3D%3D" className="link" target="_blank">Secure Coding in Python</a></li>
-                    <li><a href="https://www.linkedin.com/learning/certificates/e321dc294a21173a1cdcb34c26a6287d5a50ea05282dd1f12fb26a4258f93923" className="link" target="_blank">OWASP Top 10</a></li>
+                    <li>Purpose - In the BYU-Idaho CSE 453 cirriculum, students were required to participate in two LinkedIn Learning programs.</li>
+                    <li>Required Programs:</li>
+                    <ul>
+                        <li>Secure Coding in Python</li>
+                        <li>Learning the OWASP Top 10</li>
+                    </ul>
+                    <li>Completion Certificates:</li>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/learning/certificates/2236364fa677cc98311b70a004669d319ff6d56f4f172862cbb9722cbadfa9c2?accountId=2153100&u=2153100&success=true&authUUID=taPmh%2Fv2QFyBnAZFFnkyDw%3D%3D" className="link" target="_blank">Secure Coding in Python</a></li>
+                        <li><a href="https://www.linkedin.com/learning/certificates/e321dc294a21173a1cdcb34c26a6287d5a50ea05282dd1f12fb26a4258f93923" className="link" target="_blank">OWASP Top 10</a></li>
+                    </ul>
                 </ul>
                 <p><i><b>Note</b>: The OWASP Top 10 certification page is currently not found. I am researching ways to resolve that issue.</i></p>
             </WideImageCard>
