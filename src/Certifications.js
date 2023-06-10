@@ -5,9 +5,9 @@ import WideImageCard from "./WideImageCard";
 import Container from "./Container";
 
 const Certifications = () => {
-    useLayoutEffect(() => {
-        window.scrollTo(0, 0);
-    });
+    // useLayoutEffect(() => {
+    //     window.scrollTo(0, 0);
+    // });
     return (
         <Container>
             <TitleCard pageTitle="Certifications / Affiliations"></TitleCard>
@@ -83,12 +83,14 @@ const Certifications = () => {
             </WideImageCard>
             <WideImageCard newId="readMore6" newTargetId="#readMore6">
                 <img src={require("./assets/bsa_logo.png")} alt="Boy Scouts of America Logo" className="streamit" />
-                <h3>Eagle Scout - Boy Scouts of America</h3>
+                <h3>Boy Scouts of America - Eagle Scout Rank</h3>
                 <i>Affiliation</i>
                 <ul>
-                    <li>Completed & Earned - January 25, 2016</li>
-                    <li>Purpose - To gain skills necessary for life and being prepared for all lifestyles and changes.</li>
-                    <li>Eagle Project - Building shelving units and sorting tables for <a href="https://www.findhelp.org/provider/backpack-coalition--pflugerville-tx/5970922175463424?postal=78665" className="link" target="_blank">Backpack Coalition</a> in Round Rock, TX.</li>
+                    <li>Completed & Earned - 2016</li>
+                    <li>Recruited volunteers and coordinated 100+ work hours among participants</li>
+                    <li>Created, managed, and came in under projected budget</li>
+                    <li>Coordinated donation collections and purchase of supplies</li>
+                    <li>Designed, built, and installed shelving units and sorting tables for the <a href="https://www.findhelp.org/provider/backpack-coalition--pflugerville-tx/5970922175463424?postal=78665" className="link" target="_blank">Backpack Coalition</a> in Round Rock, TX.</li>
                 </ul>
             </WideImageCard>
             <Return/>
