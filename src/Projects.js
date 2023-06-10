@@ -43,7 +43,7 @@ const Projects = () => {
                         <li>Opening webpages</li>
                     </ul>
                 </ul>
-                <p>*<i>The repository for JACK was originally set to private until the project was completed.</i></p>
+                <p>*<i>The repository for JACK is set to private until the project is completed.</i></p>
                 <p>**<i>I learned how to integrate these skills within Python. These skills are also integrated into JACK for it's ML capabilities.</i></p>
                 <p>References for audio and tutorials:</p>
                 <ul>
