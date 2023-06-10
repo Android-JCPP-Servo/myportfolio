@@ -5,9 +5,9 @@ import WideImageCard from "./WideImageCard";
 import Container from "./Container";
 
 const Certifications = () => {
-    useLayoutEffect(() => {
-        window.scrollTo(0, 0);
-    });
+    // useLayoutEffect(() => {
+    //     window.scrollTo(0, 0);
+    // });
     return (
         <Container>
             <TitleCard pageTitle="Certifications / Affiliations"></TitleCard>
@@ -79,6 +79,16 @@ const Certifications = () => {
                 <ul>
                     <li>Purpose - To learn best coding practices in PHP, students in the BYU-I CSE 340 class were encouraged to pursue a PHP certificate through SoloLearn.</li>
                     <li>Certificate of Completion - <a href="https://www.sololearn.com/Certificate/CT-CMUUBPVO/jpg" className="link" target="_blank">PHP Certificate</a></li>
+                </ul>
+            </WideImageCard>
+            <WideImageCard newId="readMore6" newTargetId="#readMore6">
+                <img src={require("./assets/bsa_logo.png")} alt="Boy Scouts of America Logo" className="streamit" />
+                <h3>Eagle Scout - Boy Scouts of America</h3>
+                <i>Affiliation</i>
+                <ul>
+                    <li>Completed - January 25, 2016</li>
+                    <li>Purpose - To gain skills necessary for life and being prepared for all lifestyles and changes.</li>
+                    <li>Eagle Project - Building shelving units and sorting tables for <a href="https://www.findhelp.org/provider/backpack-coalition--pflugerville-tx/5970922175463424?postal=78665" className="link" target="_blank">Backpack Coalition</a> in Round Rock, TX.</li>
                 </ul>
             </WideImageCard>
             <Return/>

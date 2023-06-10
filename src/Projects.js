@@ -5,9 +5,9 @@ import { useLayoutEffect } from "react";
 import Container from './Container';
 
 const Projects = () => {
-    // useLayoutEffect(() => {
-    //     window.scrollTo(0, 0);
-    // });
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+    });
     return (
         <Container>
             <TitleCard pageTitle="Projects"></TitleCard>
