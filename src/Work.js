@@ -10,13 +10,34 @@ const Work = () => {
     });
     return (
         <Container>
-            <TitleCard pageTitle="Work & Profession">
-                <a href="https://www.linkedin.com/in/andersen-stewart-57547220b/" className="link social" target="_blank"><img src={require("./assets/linkedin_logo.png")}/></a>
-
-                <a href="https://github.com/Android-JCPP-Servo" className="link social" target="_blank"><img src={require("./assets/github_logo.png")}/></a>
-
-                <a href="https://profile.indeed.com/p/andersens-w5xbm3t" className="link social" target="_blank"><img src={require("./assets/indeed.png")}/></a>
-            </TitleCard>
+            <TitleCard pageTitle="Work & Profession" />
+            <WideImageCard newId="readMore1" newTargetId="#readMore1">
+                <img src="" alt="" />
+                <h3>Professional Social Network Links</h3>
+                <p>Find my work and experience here:</p>
+                <div className="row">
+                    <div className="col-md-4">
+                        <a href="https://www.linkedin.com/in/andersen-stewart-57547220b/" className="link social" target="_blank">
+                            <img src={require("./assets/linkedin_logo.png")} className="profLinks" alt="LinkedIn Logo" />
+                            &emsp;LinkedIn
+                        </a>
+                    </div>
+                    
+                    <div className="col-md-4">
+                        <a href="https://github.com/Android-JCPP-Servo" className="link social" target="_blank">
+                            <img src={require("./assets/github_logo.png")} className="profLinks" alt="GitHub Logo" />
+                            &emsp;GitHub
+                        </a>
+                    </div>
+                    
+                    <div className="col-md-4">
+                        <a href="https://profile.indeed.com/p/andersens-w5xbm3t" className="link social" target="_blank">
+                            <img src={require("./assets/indeed.png")} className="profLinks" alt="Indeed Logo" />
+                            &emsp;Indeed
+                        </a>
+                    </div>
+                </div>
+            </WideImageCard>
             <WideImageCard newId="readMore1" newTargetId="#readMore1">
                 <img src={require("./assets/streamit logo.jpg")} alt="Stream It, Inc. Logo" className="streamit" />
                 <h3>Full-Stack Web Developer at Stream It, Inc.</h3>
