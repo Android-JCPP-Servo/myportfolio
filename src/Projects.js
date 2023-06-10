@@ -29,8 +29,8 @@ const Projects = () => {
                             <li>Telling the weather</li>
                         </ul>
                     </ul>
-                    <li>JACK on GitHub* - <a href="https://github.com/Android-JCPP-Servo/voice_assistant_project" className='link' target='_blank'>Voice Assistant Project</a></li>
-                    <li>Skills Gained**:</li>
+                    <li>JACK on GitHub - <a href="https://github.com/Android-JCPP-Servo/voice_assistant_project" className='link' target='_blank'>Voice Assistant Project</a></li>
+                    <li>Skills Gained*:</li>
                     <ul>
                         <li>Speech Recognition</li>
                         <li>Wake-Word capabilities</li>
@@ -43,8 +43,7 @@ const Projects = () => {
                         <li>Opening webpages</li>
                     </ul>
                 </ul>
-                <p>*<i>The repository for JACK is set to private until the project is completed.</i></p>
-                <p>**<i>I learned how to integrate these skills within Python. These skills are also integrated into JACK for it's ML capabilities.</i></p>
+                <p>*<i>I learned how to integrate these skills within Python. These skills are also integrated into JACK for it's ML capabilities.</i></p>
                 <p>References for audio and tutorials:</p>
                 <ul>
                     <li><a className="link" href="https://www.youtube.com/watch?v=SXsyLdKkKX0&list=PL7yh-TELLS1G9mmnBN3ZSY8hYgJ5kBOg-&index=14" target='_blank'>Intelligent Voice Assistant in Python - NeuralNine</a></li>
