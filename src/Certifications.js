@@ -86,7 +86,7 @@ const Certifications = () => {
                 <h3>Eagle Scout - Boy Scouts of America</h3>
                 <i>Affiliation</i>
                 <ul>
-                    <li>Completed - January 25, 2016</li>
+                    <li>Completed & Earned - January 25, 2016</li>
                     <li>Purpose - To gain skills necessary for life and being prepared for all lifestyles and changes.</li>
                     <li>Eagle Project - Building shelving units and sorting tables for <a href="https://www.findhelp.org/provider/backpack-coalition--pflugerville-tx/5970922175463424?postal=78665" className="link" target="_blank">Backpack Coalition</a> in Round Rock, TX.</li>
                 </ul>
