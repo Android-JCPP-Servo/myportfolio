@@ -15,7 +15,19 @@ const Certifications = () => {
                 <img src={require("./assets/amazon6707.jpg")} alt="Amazon Logo" className="streamit" />
                 <h3>Amazon AWS Certifications</h3>
                 <ul>
-                    <li></li>
+                    <li>In-Progress - <a href=" https://aws.amazon.com/certification/certified-cloud-practitioner/?ch=sec&amp;sec=rmg&amp;d=1" target="_blank" className="link">Amazon AWS - Cloud Practitioner - Foundational</a></li>
+                    <li><a href="https://aws.amazon.com/certification/certified-cloud-practitioner/?ch=sec&sec=rmg&d=1" className="link" target="_blank">Benefits</a>:</li>
+                    <ul>
+                        <li>Gain a "basic knowledge of IT services and their uses on AWS cloud"</li>
+                        <li>Obtain "knowledge of core AWS services and use cases, billing and pricing models, security concepts, and how cloud impacts your business"</li>
+                    </ul>
+                    <li>Process of Completion:</li>
+                    <ol>
+                        <li>Get to know the exam and exam-style questions</li>
+                        <li>Learn about exam topics in AWS Skill Builder</li>
+                        <li>Take exam prep training in AWS Skill Builder</li>
+                        <li>Assess your exam readiness with Official Practice Exams</li>
+                    </ol>
                 </ul>
             </WideImageCard>
             <WideImageCard newId="readMore4" newTargetId="#readMore4">
@@ -24,38 +36,27 @@ const Certifications = () => {
                 <ul>
                     <li>In-Progress - <a className="link" target="_blank" href="https://learn.microsoft.com/en-us/certifications/azure-fundamentals/">Microsoft Azure Fundamentals</a></li>
                     <li>Benefits:</li>
-                    <ul>    
-                        <li>In-Progress - <a href=" https://aws.amazon.com/certification/certified-cloud-practitioner/?ch=sec&amp;sec=rmg&amp;d=1" target="_blank" className="link">Amazon AWS - Cloud Practitioner - Foundational</a></li>
-                        <li>Benefits:</li>
-                        <ul>
-                            <li>Validates basic knowledge of cloud services</li>
-                            <li>Teaches how and which services are provided by Azure</li>
-                            <li>Provides further knowledge into cloud concepts, such as:</li>
-                            <ul>
-                                <li>Infrastructure as a Service (IaaS)</li>
-                                <li>Platform as a Service (PaaS)</li>
-                                <li>Software as a a Service (SaaS)</li>
-                            </ul>
-                        </ul>
-                        <li>Process of Completion:</li>
-                        <ol>
-                            <li>Follow these recommandations provided on the Azure website:</li>
-                            <ul>
-                                <li>Study the content on Microsoft Learn</li>
-                                <li>Take the free Practice Assessment to validate knowledge gained from the content</li>
-                                <li>Check out Master the Basics to learn more about the certification and how to prepare for it</li>
-                            </ul>
-                            <li>Register for and pass the exam</li>
-                            <li>Showcase certification badge and skills gained on social platforms like LinkedIn</li>
-                        </ol>
-                    </ul>
-                    {/* <li>Purpose - To develop skills for jobs that require Azure experience or certifications.</li>
-                    <li>In-Line:</li>
                     <ul>
-                        <li><a href="https://learn.microsoft.com/en-us/certifications/azure-ai-fundamentals/" target="_blank" className="link">Azure AI Fundamentals</a></li>
-                        <li><a href="https://learn.microsoft.com/en-us/certifications/microsoft-365-fundamentals/" target="_blank" className="link">Microsoft 365 Fundamentals</a></li>
-                        <li><a href="https://learn.microsoft.com/en-us/certifications/security-compliance-and-identity-fundamentals/" target="_blank" className="link">Security, Compliance, and Identity (SCI) Fundamentals</a></li>
-                    </ul> */}
+                        <li>Validates basic knowledge of cloud services</li>
+                        <li>Teaches how and which services are provided by Azure</li>
+                        <li>Provides further knowledge into cloud concepts, such as:</li>
+                        <ul>
+                            <li>Infrastructure as a Service (IaaS)</li>
+                            <li>Platform as a Service (PaaS)</li>
+                            <li>Software as a Service (SaaS)</li>
+                        </ul>
+                    </ul>
+                    <li>Process of Completion:</li>
+                    <ol>
+                        <li>Follow these recommandations provided on the Azure website:</li>
+                        <ul>
+                            <li>Study the content on Microsoft Learn</li>
+                            <li>Take the free Practice Assessment to validate knowledge gained from the content</li>
+                            <li>Check out Master the Basics to learn more about the certification and how to prepare for it</li>
+                        </ul>
+                        <li>Register for and pass the exam</li>
+                        <li>Showcase certification badge and skills gained on social platforms like LinkedIn</li>
+                    </ol>
                 </ul>
             </WideImageCard>
             <WideImageCard newId="readMore3" newTargetId="#readMore3">
