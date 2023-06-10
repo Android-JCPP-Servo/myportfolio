@@ -5,9 +5,9 @@ import WideImageCard from "./WideImageCard";
 import Container from "./Container";
 
 const Certifications = () => {
-    // useLayoutEffect(() => {
-    //     window.scrollTo(0, 0);
-    // });
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+    });
     return (
         <Container>
             <TitleCard pageTitle="Certifications / Affiliations"></TitleCard>
