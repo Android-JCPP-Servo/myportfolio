@@ -20,13 +20,13 @@ const Home = () => {
                 </WideImageCard>
             </div>
             <div className="row">
-                <NarrowImageCard src={require("./assets/1200px-Brigham_Young_University–Idaho_medallion.svg.png")} alt="Brigham Young University Logo" className="byui" title="Education" text="My educational experience leading up to my chosen profession." toPage="/schooling" btnText="My School Experience"/>
+                <NarrowImageCard src={require("./assets/1200px-Brigham_Young_University–Idaho_medallion.svg.png")} alt="Brigham Young University Logo" className="byui" title="Education" text="My educational experience leading up to my chosen profession." toPage="/schooling" btnText="School Experience"/>
 
-                <NarrowImageCard src={require("./assets/handshake-icon-35511.png")} alt="Green Work Icon" className="streamit" title="Work & Profession" text="All positions and opportunities I have had within my chosen profession." toPage="/work" btnText="My Work Experience"/>
+                <NarrowImageCard src={require("./assets/handshake-icon-35511.png")} alt="Green Work Icon" className="streamit" title="Work & Profession" text="All positions and opportunities I have had within my chosen profession." toPage="/work" btnText="Work Experience"/>
 
-                <NarrowImageCard src={require("./assets/boma_project_icon.png")} alt="Boma Project Icon" className="byui" title="Projects" text="All projects started and completed during school and work careers." toPage="/projects" btnText="My Projects"/>
+                <NarrowImageCard src={require("./assets/boma_project_icon.png")} alt="Boma Project Icon" className="byui" title="Projects" text="All projects started and completed during school and work careers." toPage="/projects" btnText="Projects"/>
 
-                <NarrowImageCard src={require("./assets/codecademy.jpg")} alt="" className="byui" title="Certifications" text="All certifications gained for personal and professional development." toPage="/certifications" btnText="My Certifications" />
+                <NarrowImageCard src={require("./assets/codecademy.jpg")} alt="" className="byui" title="Certifications / Affiliations" text="All certifications / affiliations from professional development." toPage="/certifications" btnText="Certifications / Affiliations" />
             </div>
         </div>
     );

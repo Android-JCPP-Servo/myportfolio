@@ -10,7 +10,7 @@ const Certifications = () => {
     });
     return (
         <Container>
-            <TitleCard pageTitle="Certifications"></TitleCard>
+            <TitleCard pageTitle="Certifications / Affiliations"></TitleCard>
             <WideImageCard newId="readMore5" newTargetId="#readMore5">
                 <img src={require("./assets/amazon6707.jpg")} alt="Amazon Logo" className="streamit" />
                 <h3>Amazon AWS Certifications</h3>
