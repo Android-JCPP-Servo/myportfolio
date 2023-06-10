@@ -5,26 +5,47 @@ import { useLayoutEffect } from "react";
 import Container from './Container';
 
 const Projects = () => {
-    useLayoutEffect(() => {
-        window.scrollTo(0, 0);
-    });
+    // useLayoutEffect(() => {
+    //     window.scrollTo(0, 0);
+    // });
     return (
         <Container>
             <TitleCard pageTitle="Projects"></TitleCard>
             <WideImageCard newId="readMore1" newTargetId="#readMore1">
                 <img src={require("./assets/jack_icon.jpg")} alt="Jack Symbol" className="streamit"/>
                 <h3>JACK - Personal Voice Assistant (AI)</h3>
-                <p>JACK was created for two reasons:</p>
-                <ol>
-                    <li>Machine Learning cirriculum taught in the BYU - Idaho CSE 453 course</li>
-                    <li>Interest in a voice assistant that could use custom voices</li>
-                </ol>
-                <p>Ever since I purchased a new smart phone, I wanted to change Bixby's voice by using custom sounds. The R4-P17 sound effects from Star Wars always fascinated me, particularly when the Astromech would perform communication functions. I searched for a way to integrate the Astromech's sound effects, but could not find an application that was capable of such an action. I then decided to create a voice assistant that would be capable of using such sound effects.</p>
-                <p>Basing my work off the cirriculum taught in the BYU-Idaho CSE 453 course, I found several tutorials that taught how to use Speech Recognition in Python programs. In addition, I found the sound bits for R4-P17 that matched what I was looking for, and integrated them into the program.</p>
-                <p>After about 2-3 months of programming and testing, JACK can now send emails to several clients, compose/edit/delete documents, open desktop applications, and open different kinds of webpages based on the input I provide.</p>
-                <p>Recently, this version of JACK has had slowed performance, so I have begun redesigning the program to use smaller modules and programs while still using Speech Recognition AI and other essential AI Python libraries.</p>
-                <p>The following are the tutorials used to design JACK, as well as the sound bits from Star Wars.</p>
-                <p><b>Note: I own none of the Star Wars or Python tutorial content. The original owners are also listed for credibility.</b></p>
+                <ul>
+                    <li>Project Purpose - Reinforce Machine Learning experience gained from BYU-I CSE 453 and design a voice assistant with customizable voices.</li>
+                    <li>My Responsibilities:</li>
+                    <ul>
+                        <li>Research Python AI tutorials that covered Speech Recognition capabilities</li>
+                        <li>Create Python environment for designing JACK</li>
+                        <li>Find and download voice snippets from Star Wars</li>
+                        <li>Download required Python libraries for JACK</li>
+                        <li>Integrate additional features, such as:</li>
+                        <ul>
+                            <li>Setting up calendar events</li>
+                            <li>Sending dynamic emails</li>
+                            <li>Telling the weather</li>
+                        </ul>
+                    </ul>
+                    <li>JACK on GitHub* - <a href="https://github.com/Android-JCPP-Servo/voice_assistant_project" className='link' target='_blank'>Voice Assistant Project</a></li>
+                    <li>Skills Gained**:</li>
+                    <ul>
+                        <li>Speech Recognition</li>
+                        <li>Wake-Word capabilities</li>
+                        <li>TensorFlow</li>
+                        <li>PyAudio</li>
+                        <li>Sending emails</li>
+                        <li>Setting up calendar events</li>
+                        <li>Telling the weather</li>
+                        <li>Opening applications</li>
+                        <li>Opening webpages</li>
+                    </ul>
+                </ul>
+                <p>*<i>The repository for JACK was originally set to private until the project was completed.</i></p>
+                <p>**<i>I learned how to integrate these skills within Python. These skills are also integrated into JACK for it's ML capabilities.</i></p>
+                <p>References for audio and tutorials:</p>
                 <ul>
                     <li><a className="link" href="https://www.youtube.com/watch?v=SXsyLdKkKX0&list=PL7yh-TELLS1G9mmnBN3ZSY8hYgJ5kBOg-&index=14" target='_blank'>Intelligent Voice Assistant in Python - NeuralNine</a></li>
                     <li><a className="link" href="https://www.youtube.com/watch?v=dTFWEHW_REs" target="_blank">R4-P17 Voice (1) - Star Wars - George Lucas</a></li>
