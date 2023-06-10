@@ -38,8 +38,6 @@ const Certifications = () => {
                         <li>Register for and pass the exam</li>
                         <li>Showcase certification badge and skills gained on social platforms like LinkedIn</li>
                     </ol>
-                    {/* <li>Purpose - To develop skills for jobs that require AWS experience or certifications.</li>
-                    <li>In-Line - <a href="https://aws.amazon.com/certification/certified-developer-associate/?ch=tile&amp;tile=getstarted" target="_blank" className="link">Amazon AWS - Software Developer Engineer - Associate</a></li> */}
                 </ul>
             </WideImageCard>
             <WideImageCard newId="readMore4" newTargetId="#readMore4">
