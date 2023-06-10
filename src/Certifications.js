@@ -15,9 +15,31 @@ const Certifications = () => {
                 <img src={require("./assets/amazon6707.jpg")} alt="Amazon Logo" className="streamit" />
                 <h3>Amazon AWS Certifications</h3>
                 <ul>
-                    <li>Purpose - To develop skills for jobs that require AWS experience or certifications.</li>
                     <li>In-Progress - <a href=" https://aws.amazon.com/certification/certified-cloud-practitioner/?ch=sec&amp;sec=rmg&amp;d=1" target="_blank" className="link">Amazon AWS - Cloud Practitioner - Foundational</a></li>
-                    <li>In-Line - <a href="https://aws.amazon.com/certification/certified-developer-associate/?ch=tile&amp;tile=getstarted" target="_blank" className="link">Amazon AWS - Software Developer Engineer - Associate</a></li>
+                    <li>Benefits:</li>
+                    <ul>
+                        <li>Validates basic knowledge of cloud services</li>
+                        <li>Teaches how and which services are provided by Azure</li>
+                        <li>Provides further knowledge into cloud concepts, such as:</li>
+                        <ul>
+                            <li>Infrastructure as a Service (IaaS)</li>
+                            <li>Platform as a Service (PaaS)</li>
+                            <li>Software as a a Service (SaaS)</li>
+                        </ul>
+                    </ul>
+                    <li>Process of Completion:</li>
+                    <ol>
+                        <li>Follow these recommandations provided on the Azure website:</li>
+                        <ul>
+                            <li>Study the content on Microsoft Learn</li>
+                            <li>Take the free Practice Assessment to validate knowledge gained from the content</li>
+                            <li>Check out Master the Basics to learn more about the certification and how to prepare for it</li>
+                        </ul>
+                        <li>Register for and pass the exam</li>
+                        <li>Showcase certification badge and skills gained on social platforms like LinkedIn</li>
+                    </ol>
+                    {/* <li>Purpose - To develop skills for jobs that require AWS experience or certifications.</li>
+                    <li>In-Line - <a href="https://aws.amazon.com/certification/certified-developer-associate/?ch=tile&amp;tile=getstarted" target="_blank" className="link">Amazon AWS - Software Developer Engineer - Associate</a></li> */}
                 </ul>
             </WideImageCard>
             <WideImageCard newId="readMore4" newTargetId="#readMore4">
