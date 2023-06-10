@@ -104,6 +104,12 @@ const Certifications = () => {
                 <ul>
                     <li>Purpose - To learn best coding practices in PHP, students in the BYU-I CSE 340 class were encouraged to pursue a PHP certificate through SoloLearn.</li>
                     <li>Certificate of Completion - <a href="https://www.sololearn.com/Certificate/CT-CMUUBPVO/jpg" className="link" target="_blank">PHP Certificate</a></li>
+                    <li><a href="https://www.sololearn.com/learning/1059" className="link" target="_blank">Benefits</a>:</li>
+                    <ul>
+                        <li>Help design and integrate PHP modules for Drupal</li>
+                        <li>Learn to build websites with stronger front and back-end security measures</li>
+                        <li>Build "dynamic webpages, develop websites, and generate dynamic content"</li>
+                    </ul>
                 </ul>
             </WideImageCard>
             <WideImageCard newId="readMore6" newTargetId="#readMore6">
