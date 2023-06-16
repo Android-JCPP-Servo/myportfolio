@@ -71,20 +71,19 @@ const Certifications = () => {
                 <img src={require("./assets/amazon6707.jpg")} alt="Amazon Logo" className="streamit" />
                 <h3>Amazon AWS Certifications</h3>
                 <ul>
-                    <li>In-Progress - <a href=" https://aws.amazon.com/certification/certified-cloud-practitioner/?ch=sec&amp;sec=rmg&amp;d=1" target="_blank" className="link">Amazon AWS - Cloud Practitioner - Foundational</a></li>
-                    <li><a href="https://aws.amazon.com/certification/certified-cloud-practitioner/?ch=sec&sec=rmg&d=1" className="link" target="_blank">Benefits</a>:</li>
+                    <li><a href="https://aws.amazon.com/certification/certified-cloud-practitioner/?ch=sec&sec=rmg&d=1" className="link" target="_blank">Purpose</a>:</li>
                     <ul>
                         <li>Gain a "basic knowledge of IT services and their uses on AWS cloud"</li>
                         <li>Obtain "knowledge of core AWS services and use cases, billing and pricing models, security concepts, and how cloud impacts your business"</li>
                     </ul>
+                    <li>In-Progress - <a href=" https://aws.amazon.com/certification/certified-cloud-practitioner/?ch=sec&amp;sec=rmg&amp;d=1" target="_blank" className="link">Amazon AWS - Cloud Practitioner - Foundational</a></li>
                 </ul>
             </WideImageCard>
             <WideImageCard newId="readMore4" newTargetId="#readMore4">
                 <img src={require("./assets/microsoft_logo.png")} alt="Microsoft Logo" className="streamit"/>
                 <h3>Microsoft Certifications</h3>
                 <ul>
-                    <li>In-Progress - <a className="link" target="_blank" href="https://learn.microsoft.com/en-us/certifications/azure-fundamentals/">Microsoft Azure Fundamentals</a></li>
-                    <li>Benefits:</li>
+                    <li>Purpose:</li>
                     <ul>
                         <li>Validates basic knowledge of cloud services</li>
                         <li>Teaches how and which services are provided by Azure</li>
@@ -95,6 +94,7 @@ const Certifications = () => {
                             <li>Software as a Service (SaaS)</li>
                         </ul>
                     </ul>
+                    <li>In-Progress - <a className="link" target="_blank" href="https://learn.microsoft.com/en-us/certifications/azure-fundamentals/">Microsoft Azure Fundamentals</a></li>
                 </ul>
             </WideImageCard>
             <Return/>
