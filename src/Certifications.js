@@ -48,16 +48,10 @@ const Certifications = () => {
                 <img src={require("./assets/sololearn.jpg")} alt="SoloLearn Logo" className="streamit" />
                 <h3>SoloLearn Certifications</h3>
                 <ul>
-                    <li>Purpose - To learn best coding practices in PHP.</li>
+                    <li>Purpose - To design and integrate PHP modules for Drupal and build dynamic websites with stronger front and back-end security measures.</li>
                     <li>Completed Certificate:</li>
                     <ul>
                         <li>PHP Certificate</li>
-                    </ul>
-                    <li><a href="https://www.sololearn.com/learning/1059" className="link" target="_blank">Benefits</a>:</li>
-                    <ul>
-                        <li>Help design and integrate PHP modules for Drupal</li>
-                        <li>Learn to build websites with stronger front and back-end security measures</li>
-                        <li>Build "dynamic webpages, develop websites, and generate dynamic content"</li>
                     </ul>
                 </ul>
             </WideImageCard>
@@ -83,13 +77,6 @@ const Certifications = () => {
                         <li>Gain a "basic knowledge of IT services and their uses on AWS cloud"</li>
                         <li>Obtain "knowledge of core AWS services and use cases, billing and pricing models, security concepts, and how cloud impacts your business"</li>
                     </ul>
-                    <li>Process of Completion:</li>
-                    <ol>
-                        <li>Get to know the exam and exam-style questions</li>
-                        <li>Learn about exam topics in AWS Skill Builder</li>
-                        <li>Take exam prep training in AWS Skill Builder</li>
-                        <li>Assess your exam readiness with Official Practice Exams</li>
-                    </ol>
                 </ul>
             </WideImageCard>
             <WideImageCard newId="readMore4" newTargetId="#readMore4">
@@ -108,17 +95,6 @@ const Certifications = () => {
                             <li>Software as a Service (SaaS)</li>
                         </ul>
                     </ul>
-                    <li>Process of Completion:</li>
-                    <ol>
-                        <li>Follow these recommandations provided on the Azure website:</li>
-                        <ul>
-                            <li>Study the content on Microsoft Learn</li>
-                            <li>Take the free Practice Assessment to validate knowledge gained from the content</li>
-                            <li>Check out Master the Basics to learn more about the certification and how to prepare for it</li>
-                        </ul>
-                        <li>Register for and pass the exam</li>
-                        <li>Showcase certification badge and skills gained on social platforms like LinkedIn</li>
-                    </ol>
                 </ul>
             </WideImageCard>
             <Return/>
