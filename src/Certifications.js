@@ -11,6 +11,68 @@ const Certifications = () => {
     return (
         <Container>
             <TitleCard pageTitle="Certifications / Affiliations"></TitleCard>
+            <WideImageCard newId="readMore3" newTargetId="#readMore3">
+                <img src={require("./assets/codecademy.jpg")} alt="Codecademy Logo" className="streamit" />
+                <h3>Codecademy Certifications</h3>
+                <ul>
+                    <li>Purpose - To enhance my programming fluency for jobs that require experience in or exposure to several languages.</li>
+                    <li>Completed Certifications:</li>
+                    <ul>
+                        <li>C#</li>
+                        <li>React</li>
+                        <li>Git & GitHub</li>
+                        <li>JavaScript</li>
+                        <li>Cascading Style Sheets (CSS)</li>
+                        <li>HTML</li>
+                    </ul>
+                    <li>Goal(s):</li>
+                    <ul>
+                        <li>Complete the Full-Stack Engineer Certification</li>
+                        <li>Learn how C# and .NET are used to develop web apps</li>
+                    </ul>
+                </ul>
+            </WideImageCard>
+            <WideImageCard newId="readMore2" newTargetId="#readMore2">
+                <img src={require("./assets/linkedin_logo.png")} alt="LinkedIn Logo" className="byui" />
+                <h3>LinkedIn Learning</h3>
+                <ul>
+                    <li>Purpose - To learn about Secure Coding in Python and the OWASP Top 10.</li>
+                    <li>Completed Certificates:</li>
+                    <ul>
+                        <li>Secure Coding in Python</li>
+                        <li>OWASP Top 10</li>
+                    </ul>
+                </ul>
+            </WideImageCard>
+            <WideImageCard newId="readMore1" newTargetId="#readMore1">
+                <img src={require("./assets/sololearn.jpg")} alt="SoloLearn Logo" className="streamit" />
+                <h3>SoloLearn Certifications</h3>
+                <ul>
+                    <li>Purpose - To learn best coding practices in PHP, students in the BYU-I CSE 340 class were encouraged to pursue a PHP certificate through SoloLearn.</li>
+                    <li>Completed Certificate:</li>
+                    <ul>
+                        <li>PHP Certificate</li>
+                    </ul>
+                    <li><a href="https://www.sololearn.com/learning/1059" className="link" target="_blank">Benefits</a>:</li>
+                    <ul>
+                        <li>Help design and integrate PHP modules for Drupal</li>
+                        <li>Learn to build websites with stronger front and back-end security measures</li>
+                        <li>Build "dynamic webpages, develop websites, and generate dynamic content"</li>
+                    </ul>
+                </ul>
+            </WideImageCard>
+            <WideImageCard newId="readMore6" newTargetId="#readMore6">
+                <img src={require("./assets/bsa_logo.png")} alt="Boy Scouts of America Logo" className="streamit" />
+                <h3>Boy Scouts of America - Eagle Scout Rank</h3>
+                <i>Affiliation</i>
+                <ul>
+                    <li>Completed & Earned - 2016</li>
+                    <li>Recruited volunteers and coordinated 100+ work hours among participants</li>
+                    <li>Created, managed, and came in under projected budget</li>
+                    <li>Coordinated donation collections and purchase of supplies</li>
+                    <li>Designed, built, and installed shelving units and sorting tables for the <a href="https://www.findhelp.org/provider/backpack-coalition--pflugerville-tx/5970922175463424?postal=78665" className="link" target="_blank">Backpack Coalition</a> in Round Rock, TX.</li>
+                </ul>
+            </WideImageCard>
             <WideImageCard newId="readMore5" newTargetId="#readMore5">
                 <img src={require("./assets/amazon6707.jpg")} alt="Amazon Logo" className="streamit" />
                 <h3>Amazon AWS Certifications</h3>
@@ -57,71 +119,6 @@ const Certifications = () => {
                         <li>Register for and pass the exam</li>
                         <li>Showcase certification badge and skills gained on social platforms like LinkedIn</li>
                     </ol>
-                </ul>
-            </WideImageCard>
-            <WideImageCard newId="readMore3" newTargetId="#readMore3">
-                <img src={require("./assets/codecademy.jpg")} alt="Codecademy Logo" className="streamit" />
-                <h3>Codecademy Certifications</h3>
-                <ul>
-                    <li>Purpose - To enhance my programming fluency for jobs that require experience in or exposure to several languages.</li>
-                    <li>Completed Certifications:</li>
-                    <ul>
-                        <li>C#</li>
-                        <li>React</li>
-                        <li>Git & GitHub</li>
-                        <li>JavaScript</li>
-                        <li>Cascading Style Sheets (CSS)</li>
-                        <li>HTML</li>
-                    </ul>
-                    <li>Goal(s):</li>
-                    <ul>
-                        <li>Complete the Full-Stack Engineer Certification</li>
-                        <li>Learn how C# and .NET are used to develop web apps</li>
-                    </ul>
-                </ul>
-            </WideImageCard>
-            <WideImageCard newId="readMore2" newTargetId="#readMore2">
-                <img src={require("./assets/linkedin_logo.png")} alt="LinkedIn Logo" className="byui" />
-                <h3>LinkedIn Learning</h3>
-                <ul>
-                    <li>Purpose - In the BYU-Idaho CSE 453 cirriculum, students were required to participate in two LinkedIn Learning programs.</li>
-                    <li>Required Programs:</li>
-                    <ul>
-                        <li>Secure Coding in Python</li>
-                        <li>Learning the OWASP Top 10</li>
-                    </ul>
-                    <li>Certificates of Completion:</li>
-                    <ul>
-                        <li><a href="https://www.linkedin.com/learning/certificates/2236364fa677cc98311b70a004669d319ff6d56f4f172862cbb9722cbadfa9c2?accountId=2153100&u=2153100&success=true&authUUID=taPmh%2Fv2QFyBnAZFFnkyDw%3D%3D" className="link" target="_blank">Secure Coding in Python</a></li>
-                        <li><a href="https://www.linkedin.com/learning/certificates/e321dc294a21173a1cdcb34c26a6287d5a50ea05282dd1f12fb26a4258f93923" className="link" target="_blank">OWASP Top 10</a></li>
-                    </ul>
-                </ul>
-                <p><i><b>Note</b>: The OWASP Top 10 certification page is currently not found. I am researching ways to resolve that issue.</i></p>
-            </WideImageCard>
-            <WideImageCard newId="readMore1" newTargetId="#readMore1">
-                <img src={require("./assets/sololearn.jpg")} alt="SoloLearn Logo" className="streamit" />
-                <h3>SoloLearn Certifications</h3>
-                <ul>
-                    <li>Purpose - To learn best coding practices in PHP, students in the BYU-I CSE 340 class were encouraged to pursue a PHP certificate through SoloLearn.</li>
-                    <li>Certificate of Completion - <a href="https://www.sololearn.com/Certificate/CT-CMUUBPVO/jpg" className="link" target="_blank">PHP Certificate</a></li>
-                    <li><a href="https://www.sololearn.com/learning/1059" className="link" target="_blank">Benefits</a>:</li>
-                    <ul>
-                        <li>Help design and integrate PHP modules for Drupal</li>
-                        <li>Learn to build websites with stronger front and back-end security measures</li>
-                        <li>Build "dynamic webpages, develop websites, and generate dynamic content"</li>
-                    </ul>
-                </ul>
-            </WideImageCard>
-            <WideImageCard newId="readMore6" newTargetId="#readMore6">
-                <img src={require("./assets/bsa_logo.png")} alt="Boy Scouts of America Logo" className="streamit" />
-                <h3>Boy Scouts of America - Eagle Scout Rank</h3>
-                <i>Affiliation</i>
-                <ul>
-                    <li>Completed & Earned - 2016</li>
-                    <li>Recruited volunteers and coordinated 100+ work hours among participants</li>
-                    <li>Created, managed, and came in under projected budget</li>
-                    <li>Coordinated donation collections and purchase of supplies</li>
-                    <li>Designed, built, and installed shelving units and sorting tables for the <a href="https://www.findhelp.org/provider/backpack-coalition--pflugerville-tx/5970922175463424?postal=78665" className="link" target="_blank">Backpack Coalition</a> in Round Rock, TX.</li>
                 </ul>
             </WideImageCard>
             <Return/>
