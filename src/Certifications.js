@@ -48,7 +48,7 @@ const Certifications = () => {
                 <img src={require("./assets/sololearn.jpg")} alt="SoloLearn Logo" className="streamit" />
                 <h3>SoloLearn Certifications</h3>
                 <ul>
-                    <li>Purpose - To learn best coding practices in PHP, students in the BYU-I CSE 340 class were encouraged to pursue a PHP certificate through SoloLearn.</li>
+                    <li>Purpose - To learn best coding practices in PHP.</li>
                     <li>Completed Certificate:</li>
                     <ul>
                         <li>PHP Certificate</li>
