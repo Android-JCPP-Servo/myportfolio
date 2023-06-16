@@ -15,7 +15,7 @@ const Certifications = () => {
                 <img src={require("./assets/codecademy.jpg")} alt="Codecademy Logo" className="streamit" />
                 <h3>Codecademy Certifications</h3>
                 <ul>
-                    <li>Purpose - To enhance my programming fluency for jobs that require experience in or exposure to several languages.</li>
+                    <li>Purpose - To enhance programming fluency in and exposure to several languages.</li>
                     <li>Completed Certifications:</li>
                     <ul>
                         <li>C#</li>
@@ -25,18 +25,18 @@ const Certifications = () => {
                         <li>Cascading Style Sheets (CSS)</li>
                         <li>HTML</li>
                     </ul>
-                    <li>Goal(s):</li>
-                    <ul>
-                        <li>Complete the Full-Stack Engineer Certification</li>
-                        <li>Learn how C# and .NET are used to develop web apps</li>
-                    </ul>
+                    <li>In-Progress - Full-Stack Engineer Certification</li>
                 </ul>
             </WideImageCard>
             <WideImageCard newId="readMore2" newTargetId="#readMore2">
                 <img src={require("./assets/linkedin_logo.png")} alt="LinkedIn Logo" className="byui" />
                 <h3>LinkedIn Learning</h3>
                 <ul>
-                    <li>Purpose - To learn about Secure Coding in Python and the OWASP Top 10.</li>
+                    <li>Purpose:</li>
+                    <ul>
+                        <li>To learn about Secure Coding in Python</li>
+                        <li>To understand the OWASP Top 10 and proper mitigation strategies</li>
+                    </ul>
                     <li>Completed Certificates:</li>
                     <ul>
                         <li>Secure Coding in Python</li>
@@ -48,7 +48,11 @@ const Certifications = () => {
                 <img src={require("./assets/sololearn.jpg")} alt="SoloLearn Logo" className="streamit" />
                 <h3>SoloLearn Certifications</h3>
                 <ul>
-                    <li>Purpose - To design and integrate PHP modules for Drupal and build dynamic websites with stronger front and back-end security measures.</li>
+                    <li>Purpose:</li>
+                    <ul>
+                        <li>To design and integrate PHP modules for Drupal</li>
+                        <li>To build dynamic websites with stronger front and back-end security measures</li>
+                    </ul>
                     <li>Completed Certificate:</li>
                     <ul>
                         <li>PHP Certificate</li>
