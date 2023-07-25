@@ -18,6 +18,7 @@ const Certifications = () => {
                     <li>Purpose - To enhance programming fluency in and exposure to several languages.</li>
                     <li>Completed Certifications:</li>
                     <ul>
+                        <li>SQL</li>
                         <li>C#</li>
                         <li>React</li>
                         <li>Git & GitHub</li>
